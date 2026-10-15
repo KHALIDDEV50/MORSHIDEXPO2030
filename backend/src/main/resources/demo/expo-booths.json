@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "booth_green_energy",
+    "zoneId": "zone_earth",
+    "number": "1.1",
+    "name": {
+      "ar": "جناح الطاقة الخضراء",
+      "en": "Green Energy Pavilion"
+    },
+    "category": "sustainability",
+    "summary": {
+      "ar": "الطاقة الشمسية والرياح بطريقة مبسطة.",
+      "en": "Solar and wind power, simply explained."
+    },
+    "description": {
+      "ar": "الطاقة الشمسية والرياح بطريقة مبسطة. (بيانات تجريبية توضيحية)",
+      "en": "Solar and wind power, simply explained. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "تجربة توليد الطاقة",
+          "en": "Power-generation demo"
+        },
+        "time": "11:30"
+      }
+    ],
+    "suggestedDurationMin": 40,
+    "position": [
+      300,
+      273
+    ],
+    "images": [
+      {
+        "src": "/images/expo/sustainability.jpg",
+        "alt": {
+          "ar": "ألواح طاقة شمسية",
+          "en": "Solar panels"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Dennis Schroeder - NREL Photographer · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_panels_in_the_desert.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_water_future",
+    "zoneId": "zone_earth",
+    "number": "1.2",
+    "name": {
+      "ar": "جناح مستقبل المياه",
+      "en": "Future of Water Pavilion"
+    },
+    "category": "sustainability",
+    "summary": {
+      "ar": "تقنيات تحلية المياه وإعادة استخدامها.",
+      "en": "Desalination and water-reuse technologies."
+    },
+    "description": {
+      "ar": "تقنيات تحلية المياه وإعادة استخدامها. (بيانات تجريبية توضيحية)",
+      "en": "Desalination and water-reuse technologies. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض تفاعلي",
+          "en": "Interactive show"
+        },
+        "time": "13:30"
+      }
+    ],
+    "suggestedDurationMin": 35,
+    "position": [
+      398,
+      206
+    ],
+    "images": [
+      {
+        "src": "/images/expo/sustainability.jpg",
+        "alt": {
+          "ar": "ألواح طاقة شمسية",
+          "en": "Solar panels"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Dennis Schroeder - NREL Photographer · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_panels_in_the_desert.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_desert_garden",
+    "zoneId": "zone_earth",
+    "number": "1.3",
+    "name": {
+      "ar": "حديقة الصحراء الحية",
+      "en": "Living Desert Garden"
+    },
+    "category": "sustainability",
+    "summary": {
+      "ar": "نباتات محلية وزراعة موفرة للمياه.",
+      "en": "Native plants and water-wise farming."
+    },
+    "description": {
+      "ar": "نباتات محلية وزراعة موفرة للمياه. (بيانات تجريبية توضيحية)",
+      "en": "Native plants and water-wise farming. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "جولة الحديقة",
+          "en": "Garden walk"
+        },
+        "time": "17:30"
+      }
+    ],
+    "suggestedDurationMin": 30,
+    "position": [
+      282,
+      194
+    ],
+    "images": [
+      {
+        "src": "/images/expo/sustainability.jpg",
+        "alt": {
+          "ar": "ألواح طاقة شمسية",
+          "en": "Solar panels"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Dennis Schroeder - NREL Photographer · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_panels_in_the_desert.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_circular_design",
+    "zoneId": "zone_earth",
+    "number": "1.4",
+    "name": {
+      "ar": "معرض التصميم الدائري",
+      "en": "Circular Design Gallery"
+    },
+    "category": "sustainability",
+    "summary": {
+      "ar": "منتجات من مواد معاد تدويرها.",
+      "en": "Products made from recycled materials."
+    },
+    "description": {
+      "ar": "منتجات من مواد معاد تدويرها. (بيانات تجريبية توضيحية)",
+      "en": "Products made from recycled materials. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "ورشة إعادة التدوير",
+          "en": "Upcycling workshop"
+        },
+        "time": "15:30"
+      }
+    ],
+    "suggestedDurationMin": 45,
+    "position": [
+      150,
+      251
+    ],
+    "images": [
+      {
+        "src": "/images/expo/sustainability.jpg",
+        "alt": {
+          "ar": "ألواح طاقة شمسية",
+          "en": "Solar panels"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Dennis Schroeder - NREL Photographer · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_panels_in_the_desert.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_nations",
+    "zoneId": "zone_collaboration",
+    "number": "2.1",
+    "name": {
+      "ar": "جناح الأمم (توضيحي)",
+      "en": "Nations Pavilion (illustrative)"
+    },
+    "category": "countries",
+    "summary": {
+      "ar": "جناح توضيحي يمثّل مشاركة الدول — لا يذكر دولًا حقيقية.",
+      "en": "An illustrative pavilion for participating nations — names no real country."
+    },
+    "description": {
+      "ar": "جناح توضيحي يمثّل مشاركة الدول — لا يذكر دولًا حقيقية. (بيانات تجريبية توضيحية)",
+      "en": "An illustrative pavilion for participating nations — names no real country. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض ثقافي",
+          "en": "Cultural show"
+        },
+        "time": "15:00"
+      }
+    ],
+    "suggestedDurationMin": 45,
+    "position": [
+      602,
+      206
+    ],
+    "images": [
+      {
+        "src": "/images/expo/concept/site-aerial-dusk.jpg",
+        "alt": {
+          "ar": "تصوّر جوي لموقع إكسبو 2030 الرياض عند الغروب",
+          "en": "Dusk aerial concept rendering of the Expo 2030 Riyadh site"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Concept rendering of Expo 2030 Riyadh · supplied with the project (source and usage rights to be confirmed)"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_music_hall",
+    "zoneId": "zone_collaboration",
+    "number": "2.2",
+    "name": {
+      "ar": "قاعة الموسيقى العالمية",
+      "en": "World Music Hall"
+    },
+    "category": "culture",
+    "summary": {
+      "ar": "عروض موسيقية من ثقافات مختلفة.",
+      "en": "Music performances from many cultures."
+    },
+    "description": {
+      "ar": "عروض موسيقية من ثقافات مختلفة. (بيانات تجريبية توضيحية)",
+      "en": "Music performances from many cultures. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "حفل مسائي",
+          "en": "Evening concert"
+        },
+        "time": "20:00"
+      }
+    ],
+    "suggestedDurationMin": 60,
+    "position": [
+      700,
+      273
+    ],
+    "images": [
+      {
+        "src": "/images/expo/culture.jpg",
+        "alt": {
+          "ar": "خط عربي على قطع خشبية",
+          "en": "Arabic calligraphy on wooden pieces"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Mohammad Hijjawi · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arabic_calligraphy_on_wood.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_film_dome",
+    "zoneId": "zone_collaboration",
+    "number": "2.3",
+    "name": {
+      "ar": "قبة السينما",
+      "en": "Film Dome"
+    },
+    "category": "culture",
+    "summary": {
+      "ar": "أفلام قصيرة على شاشة دائرية.",
+      "en": "Short films on a 360° screen."
+    },
+    "description": {
+      "ar": "أفلام قصيرة على شاشة دائرية. (بيانات تجريبية توضيحية)",
+      "en": "Short films on a 360° screen. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض الفيلم",
+          "en": "Screening"
+        },
+        "time": "19:00"
+      }
+    ],
+    "suggestedDurationMin": 30,
+    "position": [
+      718,
+      194
+    ],
+    "images": [
+      {
+        "src": "/images/expo/culture.jpg",
+        "alt": {
+          "ar": "خط عربي على قطع خشبية",
+          "en": "Arabic calligraphy on wooden pieces"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Mohammad Hijjawi · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arabic_calligraphy_on_wood.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_mobility_hub",
+    "zoneId": "zone_collaboration",
+    "number": "2.4",
+    "name": {
+      "ar": "مركز التنقل المستقبلي",
+      "en": "Future Mobility Hub"
+    },
+    "category": "mobility",
+    "summary": {
+      "ar": "مركبات ذاتية القيادة ووسائل نقل جديدة.",
+      "en": "Autonomous vehicles and new ways to travel."
+    },
+    "description": {
+      "ar": "مركبات ذاتية القيادة ووسائل نقل جديدة. (بيانات تجريبية توضيحية)",
+      "en": "Autonomous vehicles and new ways to travel. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض المركبات",
+          "en": "Vehicle showcase"
+        },
+        "time": "10:30"
+      }
+    ],
+    "suggestedDurationMin": 45,
+    "position": [
+      634,
+      104
+    ],
+    "images": [
+      {
+        "src": "/images/expo/mobility.jpg",
+        "alt": {
+          "ar": "داخل عربة قطار مترو الرياض",
+          "en": "Inside a Riyadh Metro train car"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "ubahnverleih · CC0 · Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riyadh_Metro_-_innoTrans_2016.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_rail_future",
+    "zoneId": "zone_collaboration",
+    "number": "2.5",
+    "name": {
+      "ar": "معرض قطارات المستقبل",
+      "en": "Future Rail Gallery"
+    },
+    "category": "mobility",
+    "summary": {
+      "ar": "قصة شبكات القطارات الحديثة.",
+      "en": "The story of modern rail networks."
+    },
+    "description": {
+      "ar": "قصة شبكات القطارات الحديثة. (بيانات تجريبية توضيحية)",
+      "en": "The story of modern rail networks. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض نموذج مصغّر",
+          "en": "Scale-model show"
+        },
+        "time": "16:00"
+      }
+    ],
+    "suggestedDurationMin": 30,
+    "position": [
+      850,
+      251
+    ],
+    "images": [
+      {
+        "src": "/images/expo/mobility.jpg",
+        "alt": {
+          "ar": "داخل عربة قطار مترو الرياض",
+          "en": "Inside a Riyadh Metro train car"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "ubahnverleih · CC0 · Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riyadh_Metro_-_innoTrans_2016.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_digital_innovation",
+    "zoneId": "zone_technology",
+    "number": "3.1",
+    "name": {
+      "ar": "جناح الابتكار الرقمي",
+      "en": "Digital Innovation Pavilion"
+    },
+    "category": "ai-tech",
+    "summary": {
+      "ar": "تجارب تفاعلية عن مستقبل التقنية.",
+      "en": "Interactive experiences about the future of technology."
+    },
+    "description": {
+      "ar": "تجارب تفاعلية عن مستقبل التقنية. (بيانات تجريبية توضيحية)",
+      "en": "Interactive experiences about the future of technology. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض الروبوتات",
+          "en": "Robotics show"
+        },
+        "time": "11:00"
+      }
+    ],
+    "suggestedDurationMin": 45,
+    "position": [
+      700,
+      411
+    ],
+    "images": [
+      {
+        "src": "/images/expo/ai-tech.jpg",
+        "alt": {
+          "ar": "روبوت بشري في معرض تقني",
+          "en": "A humanoid robot at a technology exhibition"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Om Umekar · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_Robot_at_International_Exhibitions.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_ai_experience",
+    "zoneId": "zone_technology",
+    "number": "3.2",
+    "name": {
+      "ar": "قاعة تجربة الذكاء الاصطناعي",
+      "en": "AI Experience Hall"
+    },
+    "category": "ai-tech",
+    "summary": {
+      "ar": "حاور أنظمة ذكاء اصطناعي وتعرّف على طريقة عملها.",
+      "en": "Talk to AI systems and see how they work."
+    },
+    "description": {
+      "ar": "حاور أنظمة ذكاء اصطناعي وتعرّف على طريقة عملها. (بيانات تجريبية توضيحية)",
+      "en": "Talk to AI systems and see how they work. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "ورشة الذكاء الاصطناعي للمبتدئين",
+          "en": "AI for beginners workshop"
+        },
+        "time": "13:00"
+      }
+    ],
+    "suggestedDurationMin": 60,
+    "position": [
+      602,
+      478
+    ],
+    "images": [
+      {
+        "src": "/images/expo/ai-tech.jpg",
+        "alt": {
+          "ar": "روبوت بشري في معرض تقني",
+          "en": "A humanoid robot at a technology exhibition"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Om Umekar · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_Robot_at_International_Exhibitions.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_space_lab",
+    "zoneId": "zone_technology",
+    "number": "3.3",
+    "name": {
+      "ar": "مختبر الفضاء",
+      "en": "Space Lab"
+    },
+    "category": "ai-tech",
+    "summary": {
+      "ar": "محاكاة لرحلة إلى المدار.",
+      "en": "A simulated trip to orbit."
+    },
+    "description": {
+      "ar": "محاكاة لرحلة إلى المدار. (بيانات تجريبية توضيحية)",
+      "en": "A simulated trip to orbit. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "محاكاة الإطلاق",
+          "en": "Launch simulation"
+        },
+        "time": "12:30"
+      }
+    ],
+    "suggestedDurationMin": 30,
+    "position": [
+      718,
+      490
+    ],
+    "images": [
+      {
+        "src": "/images/expo/ai-tech.jpg",
+        "alt": {
+          "ar": "روبوت بشري في معرض تقني",
+          "en": "A humanoid robot at a technology exhibition"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Om Umekar · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_Robot_at_International_Exhibitions.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_future_cities",
+    "zoneId": "zone_technology",
+    "number": "3.4",
+    "name": {
+      "ar": "معرض المدن الذكية",
+      "en": "Smart Cities Gallery"
+    },
+    "category": "ai-tech",
+    "summary": {
+      "ar": "نماذج لمدن تُدار بالبيانات.",
+      "en": "Models of data-driven cities."
+    },
+    "description": {
+      "ar": "نماذج لمدن تُدار بالبيانات. (بيانات تجريبية توضيحية)",
+      "en": "Models of data-driven cities. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "جولة مصحوبة بمرشد",
+          "en": "Guided tour"
+        },
+        "time": "15:00"
+      }
+    ],
+    "suggestedDurationMin": 40,
+    "position": [
+      850,
+      433
+    ],
+    "images": [
+      {
+        "src": "/images/expo/ai-tech.jpg",
+        "alt": {
+          "ar": "روبوت بشري في معرض تقني",
+          "en": "A humanoid robot at a technology exhibition"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Om Umekar · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humanoid_Robot_at_International_Exhibitions.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_air_taxi",
+    "zoneId": "zone_technology",
+    "number": "3.5",
+    "name": {
+      "ar": "جناح التاكسي الجوي",
+      "en": "Air Taxi Pavilion"
+    },
+    "category": "mobility",
+    "summary": {
+      "ar": "تعرّف على النقل الجوي داخل المدن.",
+      "en": "Discover urban air transport."
+    },
+    "description": {
+      "ar": "تعرّف على النقل الجوي داخل المدن. (بيانات تجريبية توضيحية)",
+      "en": "Discover urban air transport. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "تجربة الواقع الافتراضي",
+          "en": "VR flight experience"
+        },
+        "time": "14:00"
+      }
+    ],
+    "suggestedDurationMin": 30,
+    "position": [
+      634,
+      580
+    ],
+    "images": [
+      {
+        "src": "/images/expo/mobility.jpg",
+        "alt": {
+          "ar": "داخل عربة قطار مترو الرياض",
+          "en": "Inside a Riyadh Metro train car"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "ubahnverleih · CC0 · Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riyadh_Metro_-_innoTrans_2016.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_micro_mobility",
+    "zoneId": "zone_technology",
+    "number": "3.6",
+    "name": {
+      "ar": "مسار تجربة التنقل الخفيف",
+      "en": "Micro-Mobility Test Track"
+    },
+    "category": "mobility",
+    "summary": {
+      "ar": "دراجات وسكوترات كهربائية للتجربة.",
+      "en": "Electric bikes and scooters to try."
+    },
+    "description": {
+      "ar": "دراجات وسكوترات كهربائية للتجربة. (بيانات تجريبية توضيحية)",
+      "en": "Electric bikes and scooters to try. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "مسار التجربة",
+          "en": "Test-ride track"
+        },
+        "time": "17:00"
+      }
+    ],
+    "suggestedDurationMin": 25,
+    "position": [
+      785,
+      535
+    ],
+    "images": [
+      {
+        "src": "/images/expo/mobility.jpg",
+        "alt": {
+          "ar": "داخل عربة قطار مترو الرياض",
+          "en": "Inside a Riyadh Metro train car"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "ubahnverleih · CC0 · Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riyadh_Metro_-_innoTrans_2016.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_arabic_calligraphy",
+    "zoneId": "zone_humanity",
+    "number": "4.1",
+    "name": {
+      "ar": "دار الخط العربي",
+      "en": "House of Arabic Calligraphy"
+    },
+    "category": "culture",
+    "summary": {
+      "ar": "فن الخط العربي من الماضي إلى اليوم.",
+      "en": "Arabic calligraphy from past to present."
+    },
+    "description": {
+      "ar": "فن الخط العربي من الماضي إلى اليوم. (بيانات تجريبية توضيحية)",
+      "en": "Arabic calligraphy from past to present. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "ورشة الخط",
+          "en": "Calligraphy workshop"
+        },
+        "time": "16:30"
+      }
+    ],
+    "suggestedDurationMin": 45,
+    "position": [
+      398,
+      478
+    ],
+    "images": [
+      {
+        "src": "/images/expo/culture.jpg",
+        "alt": {
+          "ar": "خط عربي على قطع خشبية",
+          "en": "Arabic calligraphy on wooden pieces"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Mohammad Hijjawi · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arabic_calligraphy_on_wood.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_heritage_crafts",
+    "zoneId": "zone_humanity",
+    "number": "4.2",
+    "name": {
+      "ar": "جناح الحرف السعودية",
+      "en": "Saudi Crafts Pavilion"
+    },
+    "category": "culture",
+    "summary": {
+      "ar": "السدو والفخار والخوص بأيدي الحرفيين.",
+      "en": "Sadu weaving, pottery and palm crafts by artisans."
+    },
+    "description": {
+      "ar": "السدو والفخار والخوص بأيدي الحرفيين. (بيانات تجريبية توضيحية)",
+      "en": "Sadu weaving, pottery and palm crafts by artisans. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض حي للحرفيين",
+          "en": "Live artisan demo"
+        },
+        "time": "11:00"
+      }
+    ],
+    "suggestedDurationMin": 40,
+    "position": [
+      300,
+      411
+    ],
+    "images": [
+      {
+        "src": "/images/expo/culture.jpg",
+        "alt": {
+          "ar": "خط عربي على قطع خشبية",
+          "en": "Arabic calligraphy on wooden pieces"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Mohammad Hijjawi · CC BY-SA 4.0 · Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arabic_calligraphy_on_wood.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_future_medicine",
+    "zoneId": "zone_humanity",
+    "number": "4.3",
+    "name": {
+      "ar": "معرض طب المستقبل",
+      "en": "Future Medicine Gallery"
+    },
+    "category": "health",
+    "summary": {
+      "ar": "كيف تساعد التقنية الأطباء.",
+      "en": "How technology helps doctors."
+    },
+    "description": {
+      "ar": "كيف تساعد التقنية الأطباء. (بيانات تجريبية توضيحية)",
+      "en": "How technology helps doctors. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض الجراحة الروبوتية",
+          "en": "Robotic-surgery demo"
+        },
+        "time": "14:30"
+      }
+    ],
+    "suggestedDurationMin": 40,
+    "position": [
+      282,
+      490
+    ],
+    "images": [
+      {
+        "src": "/images/expo/health.jpg",
+        "alt": {
+          "ar": "جراح يستخدم روبوتًا جراحيًا",
+          "en": "A surgeon using a surgical robot"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Navy Medicine · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surgeon_performing_robot-assisted_surgery.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_wellbeing",
+    "zoneId": "zone_humanity",
+    "number": "4.4",
+    "name": {
+      "ar": "جناح جودة الحياة",
+      "en": "Wellbeing Pavilion"
+    },
+    "category": "health",
+    "summary": {
+      "ar": "النوم والحركة والتغذية في تجربة واحدة.",
+      "en": "Sleep, movement and nutrition in one experience."
+    },
+    "description": {
+      "ar": "النوم والحركة والتغذية في تجربة واحدة. (بيانات تجريبية توضيحية)",
+      "en": "Sleep, movement and nutrition in one experience. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "جلسة استرخاء",
+          "en": "Relaxation session"
+        },
+        "time": "12:00"
+      }
+    ],
+    "suggestedDurationMin": 30,
+    "position": [
+      366,
+      580
+    ],
+    "images": [
+      {
+        "src": "/images/expo/health.jpg",
+        "alt": {
+          "ar": "جراح يستخدم روبوتًا جراحيًا",
+          "en": "A surgeon using a surgical robot"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Navy Medicine · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surgeon_performing_robot-assisted_surgery.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_sports_science",
+    "zoneId": "zone_humanity",
+    "number": "4.5",
+    "name": {
+      "ar": "ساحة علوم الرياضة",
+      "en": "Sports Science Arena"
+    },
+    "category": "health",
+    "summary": {
+      "ar": "قِس سرعتك وتوازنك.",
+      "en": "Measure your speed and balance."
+    },
+    "description": {
+      "ar": "قِس سرعتك وتوازنك. (بيانات تجريبية توضيحية)",
+      "en": "Measure your speed and balance. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "تحدي اللياقة",
+          "en": "Fitness challenge"
+        },
+        "time": "17:00"
+      }
+    ],
+    "suggestedDurationMin": 30,
+    "position": [
+      150,
+      433
+    ],
+    "images": [
+      {
+        "src": "/images/expo/health.jpg",
+        "alt": {
+          "ar": "جراح يستخدم روبوتًا جراحيًا",
+          "en": "A surgeon using a surgical robot"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Navy Medicine · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surgeon_performing_robot-assisted_surgery.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_family_corner",
+    "zoneId": "zone_humanity",
+    "number": "4.6",
+    "name": {
+      "ar": "ركن اكتشاف العائلة",
+      "en": "Family Discovery Corner"
+    },
+    "category": "health",
+    "summary": {
+      "ar": "ألعاب تعليمية للأطفال عن الصحة والعلوم.",
+      "en": "Educational health and science games for children."
+    },
+    "description": {
+      "ar": "ألعاب تعليمية للأطفال عن الصحة والعلوم. (بيانات تجريبية توضيحية)",
+      "en": "Educational health and science games for children. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "مسرح الأطفال",
+          "en": "Children's theatre"
+        },
+        "time": "10:00"
+      }
+    ],
+    "suggestedDurationMin": 25,
+    "position": [
+      215,
+      535
+    ],
+    "images": [
+      {
+        "src": "/images/expo/health.jpg",
+        "alt": {
+          "ar": "جراح يستخدم روبوتًا جراحيًا",
+          "en": "A surgeon using a surgical robot"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Navy Medicine · Public domain · Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surgeon_performing_robot-assisted_surgery.jpg"
+      }
+    ],
+    "provenance": "demo"
+  },
+  {
+    "id": "booth_main_stage",
+    "zoneId": "zone_plaza",
+    "number": "5.1",
+    "name": {
+      "ar": "المسرح الرئيسي",
+      "en": "Main Stage"
+    },
+    "category": "events",
+    "summary": {
+      "ar": "عروض وفعاليات يومية في الساحة المركزية.",
+      "en": "Daily shows and events on the central plaza."
+    },
+    "description": {
+      "ar": "عروض وفعاليات يومية في الساحة المركزية. (بيانات تجريبية توضيحية)",
+      "en": "Daily shows and events on the central plaza. (Illustrative demo data.)"
+    },
+    "activities": [
+      {
+        "title": {
+          "ar": "عرض الافتتاح اليومي",
+          "en": "Daily opening show"
+        },
+        "time": "18:00"
+      }
+    ],
+    "suggestedDurationMin": 45,
+    "position": [
+      500,
+      338
+    ],
+    "images": [
+      {
+        "src": "/images/expo/events.jpg",
+        "alt": {
+          "ar": "حفل موسيقي على مسرح مضاء",
+          "en": "A concert on a lit stage"
+        },
+        "placeholder": false,
+        "illustrative": true,
+        "credit": "Shixart1985 · CC BY 2.0 · Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_large_crowd_enjoys_a_music_concert_illuminated_by_colorful_lights_and_a_stunning_stage_display.jpg"
+      }
+    ],
+    "provenance": "demo"
+  }
+]

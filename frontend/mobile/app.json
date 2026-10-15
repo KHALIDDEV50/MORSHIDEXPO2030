@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "MORSHID",
+    "slug": "morshid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#FAF8F3",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.morshid.app"
+    },
+    "android": {
+      "package": "com.morshid.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF8F3",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [],
+      "predictiveBackGestureEnabled": false,
+      "blockedPermissions": [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "backgroundColor": "#FAF8F3",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#161512"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "webUrl": "https://morshid-three.vercel.app",
+      "eas": {
+        "projectId": "4c34abbb-ac98-4215-9df7-58f2d4f57f40"
+      }
+    }
+  }
+}

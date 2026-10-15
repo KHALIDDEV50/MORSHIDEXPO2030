@@ -1,0 +1,32 @@
+{
+  "name": "morshid-mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "~57.0.28",
+    "expo-constants": "~57.0.21",
+    "expo-splash-screen": "~57.0.10",
+    "expo-status-bar": "~57.0.1",
+    "expo-system-ui": "~57.0.4",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-webview": "13.16.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "typecheck": "tsc --noEmit",
+    "doctor": "expo-doctor",
+    "prebuild:android": "expo prebuild --platform android --clean",
+    "apk:local": "expo prebuild --platform android && cd android && gradlew assembleRelease",
+    "build:apk": "npx --yes eas-cli@latest build --platform android --profile preview",
+    "build:aab": "npx --yes eas-cli@latest build --platform android --profile production",
+    "eas:login": "npx --yes eas-cli@latest login"
+  },
+  "private": true
+}

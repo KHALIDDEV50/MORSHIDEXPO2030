@@ -1,0 +1,3372 @@
+{
+  "common": {
+    "appName": "Morshid",
+    "appNameLatin": "MORSHID",
+    "tagline": "Your AI companion for Riyadh, Saudi Arabia and Expo 2030",
+    "languageSwitch": "العربية",
+    "languageSwitchLabel": "Switch to Arabic"
+  },
+  "scaffold": {
+    "metaTitle": "Morshid — under construction",
+    "badge": "Phase 2 of 12",
+    "title": "The MORSHID project foundation is ready",
+    "body": "This is a temporary page. The design system is ready for review; navigation and the app shell come in the next phase.",
+    "checks": {
+      "locale": "Current language: English",
+      "direction": "Page direction: left to right",
+      "fonts": "Fonts: Cairo for headings, Tajawal for text"
+    },
+    "next": "Review the colors and core components (Gate C):",
+    "galleryLink": "Open the design system"
+  },
+  "ui": {
+    "duration": {
+      "minutes": "{minutes} min",
+      "hours": "{hours} h",
+      "join": "{hours} {minutes}"
+    },
+    "close": "Close",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "clearSearch": "Clear search",
+    "breadcrumbs": "Breadcrumb",
+    "demo": "Demo",
+    "placeholderImage": "Placeholder image",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "We couldn't load this content. Check your connection and try again.",
+    "priority": {
+      "high": "Highly recommended",
+      "recommended": "Recommended",
+      "optional": "Optional"
+    },
+    "pagination": {
+      "label": "Pagination",
+      "first": "First page",
+      "previous": "Previous page",
+      "next": "Next page",
+      "last": "Last page",
+      "page": "Page {page}"
+    },
+    "errors": {
+      "NETWORK": {
+        "title": "You're offline or the connection failed",
+        "description": "Check your connection and try again."
+      },
+      "TIMEOUT": {
+        "title": "The service took too long to answer",
+        "description": "Please try again in a moment."
+      },
+      "UNAUTHORIZED": {
+        "title": "Please sign in",
+        "description": "Your session has ended — sign in again to continue."
+      },
+      "FORBIDDEN": {
+        "title": "You don't have access to this",
+        "description": "This content is not available for your account."
+      },
+      "UNCONFIGURED": {
+        "title": "This service is not connected yet",
+        "description": "The app is not configured with an API address. This is a setup issue, not missing data."
+      },
+      "NOT_IMPLEMENTED": {
+        "title": "Not available yet",
+        "description": "This feature is not connected to a service yet."
+      },
+      "RATE_LIMITED": {
+        "title": "Too many requests",
+        "description": "Please wait a moment and try again."
+      },
+      "NOT_FOUND": {
+        "title": "We couldn't find that",
+        "description": "It may have been removed or its link changed."
+      },
+      "SERVER": {
+        "title": "The server ran into a problem",
+        "description": "Something went wrong on our side. Please try again shortly."
+      }
+    }
+  },
+  "map": {
+    "illustrative": "Illustrative layout · not an official map",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "toggleAttribution": "Show map credits",
+    "unsupported": "The interactive map can't run on this device or browser. The places are listed below instead.",
+    "loadError": "The map couldn't load (check your connection). The places are listed below instead.",
+    "retry": "Try loading the map again",
+    "listLabel": "{label} — list view",
+    "canvasLabel": "{label}: map canvas. Use the arrow keys to pan and + or − to zoom."
+  },
+  "expoMap": {
+    "mapLabel": "Expo site plan (illustrative)",
+    "illustrativeShort": "Illustrative · not official",
+    "zoneShort": "Zone {number} · {name}",
+    "detailsLabel": "Details",
+    "locationCount": "{count, plural, one {# numbered location} other {# numbered locations}}",
+    "demoData": "Demo data",
+    "demoTime": "{time} (demo time)",
+    "duration": "Suggested visit: about {minutes} min",
+    "category": {
+      "ai-tech": "AI & technology",
+      "sustainability": "Sustainability",
+      "culture": "Culture",
+      "mobility": "Mobility",
+      "health": "Health & wellbeing",
+      "countries": "Nations",
+      "events": "Events"
+    },
+    "facility": {
+      "entrance": "Entrance",
+      "restroom": "Restrooms",
+      "prayer": "Prayer room",
+      "info": "Information",
+      "food": "Food & drink",
+      "firstaid": "First aid",
+      "transport": "Transport stop"
+    },
+    "viewPavilion": "View pavilion",
+    "illustrativePhoto": "Illustrative photo",
+    "illustrativeNote": "Illustrative photo of the theme — not this pavilion",
+    "zonesLabel": "Expo districts",
+    "wholeSite": "Whole site",
+    "collapseDetails": "Collapse details",
+    "expandDetails": "Expand details",
+    "conceptRendering": "Concept rendering",
+    "overviewTitle": "Expo 2030 Riyadh — site overview",
+    "overviewBody": "Four thematic districts around a central plaza. Select a district on the map or below to zoom in; select a number for a pavilion or visitor facility.",
+    "conceptNoteSite": "Concept rendering of the future site — not a photograph and not the official site plan.",
+    "conceptNoteZone": "Concept rendering that sets the mood of this district — not a photograph of its pavilions.",
+    "hubTag": "Central plaza · not a theme",
+    "themeTag": "Thematic district (illustrative)",
+    "pavilionCount": "{count, plural, =0 {No pavilions} one {# pavilion} other {# pavilions}}",
+    "separateFromTourism": "This map shows Expo locations only. Riyadh and Saudi places are on a separate map.",
+    "openTourismMap": "Open the tourism map",
+    "noNavigation": "Positions are illustrative: no official booth locations, routes or live venue information."
+  },
+  "discoverPage": {
+    "title": "Discover Riyadh & beyond",
+    "subtitle": "Heritage, museums, nature, food and more — search, filter, and explore on the map.",
+    "searchLabel": "Search places",
+    "searchPlaceholder": "Search places, areas or experiences",
+    "expoChip": "Expo 2030",
+    "openDetails": "View details: {name}",
+    "placesInCollection": "{count, plural, one {# place} other {# places}}",
+    "mapPreviewTitle": "Explore Riyadh on the map",
+    "mapPreviewText": "See every guide place on a real map, then search the area you're interested in.",
+    "mapPreviewCta": "Open the map",
+    "resultsLabel": "Search results",
+    "filtersButton": "Filters",
+    "filtersButtonCount": "Filters ({count})",
+    "filtersTitle": "Filters",
+    "showResults": "{count, plural, =0 {No places to show} one {Show # place} other {Show # places}}",
+    "viewLabel": "View",
+    "viewList": "List",
+    "viewMap": "Map",
+    "searching": "Searching…",
+    "resultsCount": "{count, plural, =0 {No places match} one {# place} other {# places}}",
+    "areaChip": "In the map area",
+    "clearArea": "Remove the map-area limit",
+    "clearFilters": "Clear filters",
+    "clearAll": "Clear search and filters",
+    "emptyTitle": "No places match",
+    "emptyDescription": "Try another word, fewer filters, or a wider map area.",
+    "addToPlanNamed": "Add {name} to a plan",
+    "mapLabel": "Map of search results",
+    "searchThisArea": "Search this area",
+    "mapEmpty": "No places here — move the map or change filters.",
+    "viewDetails": "View details",
+    "filters": {
+      "categories": "Categories",
+      "duration": "Visit duration",
+      "durationAny": "Any length",
+      "durationUpTo": "{hours, plural, one {Up to # hour} other {Up to # hours}}",
+      "setting": "Indoor / outdoor",
+      "settingAny": "Both",
+      "indoor": "Indoor",
+      "outdoor": "Outdoor",
+      "family": "Family-friendly"
+    },
+    "sort": {
+      "label": "Sort by",
+      "relevance": "Best match",
+      "name": "Name (A–Z)",
+      "duration": "Shortest visit first"
+    }
+  },
+  "addToPlan": {
+    "button": "Add to plan",
+    "title": "Add {name} to a plan",
+    "description": "Choose one of your plans or start a new one. You can reorder stops later in My Plans.",
+    "chooseLabel": "Your plans",
+    "planMeta": "{stops, plural, one {# stop} other {# stops}} · {status, select, draft {Draft} upcoming {Upcoming} in_progress {In progress} other {Plan}}",
+    "alreadyIn": "Already in this plan",
+    "newPlan": "New plan",
+    "newPlanName": "Visit to {name}",
+    "newPlanNameLabel": "Plan name",
+    "newPlanHint": "Saved as a draft — add a date when you're ready.",
+    "signInRequired": "Sign in to create plans. (Guests can browse and add to existing demo plans.)",
+    "limitReached": "You've reached your plan's saved-plan limit. Add to an existing plan, or see Subscription & credits.",
+    "cancel": "Cancel",
+    "confirm": "Add to plan",
+    "adding": "Adding…",
+    "addedToast": "{name} added to “{plan}”",
+    "errorToast": "Couldn't add the place. Please try again.",
+    "guestNote": "You’ll be asked to sign in to save — then the place is added."
+  },
+  "askAboutPlace": {
+    "button": "Ask {name} about this place",
+    "conversationTitle": "About {name}",
+    "errorToast": "Couldn't start the conversation. Please try again.",
+    "buttonBooth": "Ask {name} about this pavilion"
+  },
+  "placeDetails": {
+    "backToDiscover": "Back to Discover",
+    "notFoundTitle": "Place not found",
+    "notFoundDescription": "This place isn't in the guide (anymore). Browse Discover for others.",
+    "didYouKnow": "{name} · Did you know?",
+    "about": "About",
+    "history": "History & culture",
+    "tips": "Visitor tips",
+    "related": "Related places",
+    "openRelated": "View details: {name}",
+    "suggestedDuration": "Suggested visit",
+    "bestTime": "Best time",
+    "setting": "Setting",
+    "indoor": "Indoor",
+    "outdoor": "Outdoor",
+    "family": "Families",
+    "familyYes": "Family-friendly",
+    "entry": "Entry",
+    "freeEntry": "Free",
+    "openingHours": "Opening hours",
+    "hoursDemo": "Demo — verify before visiting",
+    "mapLabel": "Map: {name}",
+    "mapCaption": "Location from OpenStreetMap",
+    "photoBy": "Photo:"
+  },
+  "chatPage": {
+    "history": "Conversations",
+    "showHistory": "Show conversations",
+    "hideHistory": "Hide conversations",
+    "newWith": "New conversation with {name}",
+    "viewLabel": "View",
+    "chatView": "Chat",
+    "mapView": "Map",
+    "newConversation": "New conversation",
+    "notFoundTitle": "Conversation not found",
+    "notFoundDescription": "It may have been deleted. Start a new conversation instead.",
+    "chatPanel": "Conversation",
+    "stopsPanel": "Stops on the map",
+    "backToConversation": "Back to conversation",
+    "focusMap": "Focus map",
+    "askAboutStop": "Tell me more about {name}",
+    "routeMapLabel": "Route of the proposal",
+    "placeDetails": "Place details",
+    "selectForDetails": "Select a place on the map for its details",
+    "aboutPlace": "About: {place}",
+    "removePlaceContext": "Remove the place context",
+    "expoView": "Expo Map",
+    "expoTitle": "Expo 2030 site plan",
+    "openExpoPage": "Open the Expo page",
+    "expoOnMapNotice": "These are Expo pavilions — they appear on the Expo Map, not on the tourism map.",
+    "openFullDetails": "Open full details",
+    "askAboutIt": "Ask about it",
+    "modes": {
+      "chat": "Chat with {name}",
+      "map": "Explore Map",
+      "expo": "Expo Map"
+    },
+    "planTrip": {
+      "button": "Plan a trip",
+      "demoNote": "Demo plans from the guide data — you review them before saving.",
+      "askRiyadh": "Ask {name} for a Riyadh day plan",
+      "askExpo": "Ask {name} for an Expo visit plan",
+      "riyadhPrompt": "Plan a one-day heritage trip in Riyadh",
+      "expoPrompt": "Plan my Expo visit",
+      "createMyself": "Create a plan myself",
+      "myPlans": "My Plans"
+    }
+  },
+  "chatThread": {
+    "label": "Conversation with {name}",
+    "you": "You",
+    "now": "now",
+    "loading": "Loading conversation…",
+    "offline": "You're offline. Messages can't be sent until you reconnect.",
+    "stop": "Stop",
+    "followUpPrompt": "Tell me more about {name}",
+    "recommendationsLabel": "Recommendations",
+    "demoRanking": "Demo ranking",
+    "suggestedDuration": "Suggested visit: {duration}",
+    "whyMatches": "Why this matches you:",
+    "showOnMap": "Show on map",
+    "addToPlan": "Add to plan",
+    "askFollowUp": "Ask follow-up",
+    "seePlans": "See plans",
+    "proposal": {
+      "label": "Itinerary proposal: {title}",
+      "eyebrow": "Itinerary proposal",
+      "startsAt": "Starts {time}",
+      "saved": "Saved",
+      "savedToastDescription": "Find it in My Plans.",
+      "review": "View proposal",
+      "reviewEdit": "Review & edit",
+      "showOnMap": "Show on map"
+    },
+    "viewDetails": "View details"
+  },
+  "chatHistory": {
+    "label": "Conversation history",
+    "new": "New chat with {name}",
+    "search": "Search conversations",
+    "filterLabel": "Show conversations",
+    "all": "All",
+    "empty": "No conversations yet",
+    "emptyHint": "Start one — it will appear here.",
+    "noResults": "No conversations match your search",
+    "groups": {
+      "today": "Today",
+      "week": "Last 7 days",
+      "older": "Older"
+    },
+    "placeContext": "About a place",
+    "actionsFor": "Actions for {title}",
+    "rename": "Rename",
+    "renameTitle": "Rename conversation",
+    "titleLabel": "Title",
+    "save": "Save",
+    "delete": "Delete",
+    "deleteTitle": "Delete this conversation?",
+    "deleteDescription": "“{title}” and its messages will be deleted. Saved plans are not affected.",
+    "cancel": "Cancel",
+    "deletedToast": "Conversation deleted",
+    "errorToast": "Something went wrong. Please try again."
+  },
+  "chatMap": {
+    "label": "Chat map",
+    "stopLabel": "{number}. {name}",
+    "empty": "Ask for recommendations or an itinerary to see them on the map.",
+    "context": {
+      "tourismProposal": "Itinerary · Riyadh map",
+      "expoProposal": "Itinerary · Expo map (illustrative)",
+      "tourismRecommendations": "Recommendations · Riyadh map",
+      "expoRecommendations": "Recommendations · Expo map (illustrative)"
+    }
+  },
+  "placeChat": {
+    "label": "Chat about {place}",
+    "contextChip": "About: {place}",
+    "intro": "{name} can answer questions about {place}. Try one of these:",
+    "suggestions": {
+      "history": "What's the history of {name}?",
+      "focus": "What should I look out for at {name}?",
+      "nearby": "What's near {name}?"
+    }
+  },
+  "mapPlayground": {
+    "title": "Map foundation",
+    "devOnly": "Dev only",
+    "subtitle": "Phase 5 review: the real map (MapLibre + OpenFreeMap) for tourism and the illustrative Expo layout. Try both themes, both languages, and the keyboard (Tab to a marker, Enter to select).",
+    "tourismTitle": "Tourism map",
+    "tourismHint": "Real geography with verified OpenStreetMap coordinates. Pan or zoom: the list shows the guide places in view. Click a base-map place to see its OpenStreetMap name.",
+    "selectHint": "Select a marker or a place in the list.",
+    "inView": "{count, plural, =0 {No guide places in view} one {# guide place in view} other {# guide places in view}}",
+    "coordinateSource": "Coordinates: {source}",
+    "poiTitle": "OpenStreetMap place",
+    "poiNotInGuide": "Not in the MORSHID guide",
+    "routeTitle": "Plan route",
+    "routeHint": "Demo plan “Old Riyadh in one day”. The line connects stops in visit order (solid = done); it is not a walking or driving route.",
+    "expoTitle": "Expo map",
+    "expoHint": "Illustrative demo layout with fictional zones, pavilions and facilities — not the official Expo 2030 Riyadh site plan. Select a zone or a numbered location: the map, legend, details and list stay in sync. No basemap and no GPS.",
+    "mapLabel": {
+      "tourism": "Map of guide places",
+      "route": "Map of your plan",
+      "expo": "Expo site plan (illustrative)"
+    },
+    "stopLabel": "Stop {number}: {name}",
+    "start": "Start",
+    "end": "End",
+    "startLabel": "Start point: {name}",
+    "endLabel": "End point: {name}",
+    "status": {
+      "completed": "completed",
+      "current": "current stop",
+      "upcoming": "upcoming"
+    }
+  },
+  "characters": {
+    "switchTo": "Switch to {name}",
+    "arif": {
+      "name": "Arif",
+      "role": "Heritage storyteller · your local guide",
+      "alt": "Arif, a boy in a red shemagh and white thobe rising from teal smoke",
+      "greeting": "Hello! I'm Arif. Tell me what you'd like to discover in Riyadh and I'll share the stories behind it.",
+      "suggestions": {
+        "s1": {
+          "title": "Riyadh's historic heart",
+          "hint": "Masmak, Diriyah & the old city",
+          "prompt": "What are the most important historical sites in Riyadh?"
+        },
+        "s2": {
+          "title": "A one-day heritage plan",
+          "hint": "A ready route you can save",
+          "prompt": "Create a one-day heritage itinerary in Riyadh."
+        },
+        "s3": {
+          "title": "Taste Najdi food",
+          "hint": "Traditional dishes & where to try them",
+          "prompt": "Where can I try traditional Najdi food in Riyadh?"
+        },
+        "s4": {
+          "title": "Beyond Riyadh",
+          "hint": "AlUla, Jeddah & more",
+          "prompt": "What are Saudi Arabia's highlights beyond Riyadh?"
+        }
+      }
+    },
+    "roaya": {
+      "name": "Roaya",
+      "role": "Calm planner · culture & Expo 2030",
+      "alt": "Roaya, a girl in a black abaya with gold embroidery rising from violet smoke",
+      "greeting": "Hi, I'm Roaya. Let's plan a visit that fits your time — in Riyadh or at Expo 2030.",
+      "suggestions": {
+        "s1": {
+          "title": "AI & tech at Expo",
+          "hint": "Pavilions that match your interests",
+          "prompt": "I want to visit AI-related booths at Expo 2030."
+        },
+        "s2": {
+          "title": "Half a day at Expo",
+          "hint": "A focused, timed route",
+          "prompt": "Create a half-day itinerary for AI and technology exhibitions at Expo 2030."
+        },
+        "s3": {
+          "title": "A family day",
+          "hint": "Parks, museums & easy pacing",
+          "prompt": "Plan a relaxed family day in Riyadh."
+        },
+        "s4": {
+          "title": "Modern Riyadh",
+          "hint": "Architecture & skyline views",
+          "prompt": "Show me modern Riyadh architecture worth seeing."
+        }
+      }
+    }
+  },
+  "chat": {
+    "messageFrom": "Message from {author}",
+    "sendFailed": "Message not sent.",
+    "retry": "Retry",
+    "typing": "{author} is typing…",
+    "suggestionsLabel": "Try asking",
+    "composerLabel": "Message {name}",
+    "composerPlaceholder": "Ask {name} anything…",
+    "send": "Send",
+    "disclaimer": "Morshid can make mistakes. Check important details before you visit.",
+    "welcome": {
+      "label": "Start a conversation with {name}",
+      "eyebrow": "Your AI travel companion"
+    }
+  },
+  "voice": {
+    "input": {
+      "start": "Speak your message",
+      "stop": "Done — insert text",
+      "cancel": "Cancel recording",
+      "recordingGroup": "Voice recording",
+      "starting": "Starting the microphone…",
+      "listening": "Listening… speak now",
+      "dismiss": "Dismiss",
+      "errors": {
+        "unsupported": {
+          "title": "Voice input isn't available here",
+          "body": "This browser doesn't support speech recognition. Try Chrome, Edge or Safari, or type your message."
+        },
+        "insecure-context": {
+          "title": "Voice input needs a secure page",
+          "body": "The microphone only works on https or localhost. You can still type your message."
+        },
+        "permission-denied": {
+          "title": "Microphone access is blocked",
+          "body": "Allow the microphone in your browser's site settings, then tap the mic again. You can always type instead."
+        },
+        "no-microphone": {
+          "title": "No microphone found",
+          "body": "Connect a microphone or check your device settings, then try again."
+        },
+        "no-speech": {
+          "title": "We didn't hear anything",
+          "body": "Nothing was recognized. Tap the mic and speak a little closer, or type your message."
+        },
+        "network": {
+          "title": "Speech service unavailable",
+          "body": "The browser's speech recognition needs an internet connection. Try again or type your message."
+        },
+        "unknown": {
+          "title": "Voice input stopped",
+          "body": "Something went wrong with the microphone. Try again or type your message."
+        }
+      }
+    },
+    "output": {
+      "listen": "Listen",
+      "listenLabel": "Listen to {name}'s reply",
+      "unavailable": "Audio unavailable",
+      "unavailableLabel": "Why audio is unavailable",
+      "controlsLabel": "Audio playback",
+      "pause": "Pause",
+      "resume": "Resume",
+      "stop": "Stop",
+      "playing": "Playing",
+      "paused": "Paused",
+      "nowPlaying": "Playing {name}'s reply",
+      "demoVoice": "Device voice · demo",
+      "demoVoiceNote": "Read aloud with your device's built-in voice (demo) — not Arif's or Roaya's own voice.",
+      "errors": {
+        "unsupported": {
+          "title": "Read-aloud isn't supported",
+          "body": "This browser has no text-to-speech. You can still read every reply."
+        },
+        "no-voice": {
+          "title": "No voice for this language",
+          "body": "Your device has no voice installed for this language. Add one in your system's speech settings to listen."
+        },
+        "interrupted": {
+          "title": "Playback was interrupted",
+          "body": "Tap Listen to play the reply again."
+        },
+        "unknown": {
+          "title": "Playback failed",
+          "body": "The reply couldn't be read aloud. Try again."
+        }
+      }
+    }
+  },
+  "place": {
+    "close": "Close place details",
+    "suggestedDuration": "Suggested: {duration}",
+    "whatYouWillSee": "What you'll see",
+    "verifyHours": "Demo hours — verify before visiting",
+    "photoBy": "Photo:"
+  },
+  "trip": {
+    "progress": {
+      "label": "Trip progress",
+      "completedOf": "{completed} of {total} stops completed",
+      "remaining": "Remaining",
+      "current": "Current stop",
+      "noCurrent": "Not selected",
+      "schedule": "Schedule",
+      "planned": "Planned time",
+      "overdue": "{count, plural, one {# stop is past its planned time} other {# stops are past their planned time}}"
+    },
+    "duration": {
+      "hm": "{h} h {m} min",
+      "h": "{h} h",
+      "m": "{m} min"
+    },
+    "timeline": {
+      "label": "Itinerary stops",
+      "stopNumber": "Stop {n}:",
+      "overdueExplain": "Planned to end at {time} and not marked as completed yet. Mark it done, set it as your current stop, or remove it.",
+      "tips": "Tips"
+    },
+    "status": {
+      "start": "Starting point",
+      "departed": "Departed",
+      "destination": "Final destination",
+      "current": "Current stop",
+      "overdue": "Overdue",
+      "completed": "Completed",
+      "upcoming": "Upcoming",
+      "break": "Rest break"
+    },
+    "actions": {
+      "complete": "Mark completed",
+      "undoComplete": "Undo completed",
+      "setCurrent": "Set as current stop",
+      "startThis": "Set as current",
+      "showOnMap": "Show on map",
+      "remove": "Remove"
+    },
+    "marker": {
+      "numbered": "Stop {n}: {name}"
+    },
+    "routeDisclaimer": "Line shows visit order only — not a walking or driving route.",
+    "removedToast": "“{name}” removed from the trip",
+    "undo": "Undo",
+    "sheet": {
+      "collapse": "Collapse trip details",
+      "expand": "Expand trip details"
+    },
+    "footer": {
+      "current": "Current stop",
+      "next": "Next stop"
+    },
+    "locate": {
+      "whereAmI": "Where am I?",
+      "locating": "Finding your location…",
+      "privacyNote": "Asks for location once. Never tracked.",
+      "foundTitle": "Your location",
+      "foundNote": "This is you, not a stop. The real map shows it as a blue dot in Phase 5; arrival is never marked automatically.",
+      "clear": "Clear location",
+      "chooseManually": "Choose my current stop",
+      "tryAgain": "Try again",
+      "errors": {
+        "unsupported": {
+          "title": "Location isn't available",
+          "body": "This browser can't share your location. Pick your current stop from the list instead."
+        },
+        "insecure-context": {
+          "title": "Location needs a secure page",
+          "body": "Location works on https or localhost only. Pick your current stop from the list instead."
+        },
+        "permission-denied": {
+          "title": "Location access is blocked",
+          "body": "Allow location for this site in your browser settings, or pick your current stop from the list."
+        },
+        "unavailable": {
+          "title": "Couldn't find your location",
+          "body": "Your device couldn't get a position (weak signal or location services off). Try again or pick your stop manually."
+        },
+        "timeout": {
+          "title": "Location took too long",
+          "body": "Try again in an open area, or pick your current stop from the list."
+        }
+      }
+    }
+  },
+  "voiceMode": {
+    "open": "Open voice mode",
+    "openShort": "Voice",
+    "dialogTitle": "Voice conversation with {name}",
+    "exit": "Back to chat",
+    "showTranscript": "Show transcript",
+    "hideTranscript": "Hide transcript",
+    "transcript": "Transcript",
+    "transcriptEmpty": "What you say and the replies will appear here.",
+    "you": "You",
+    "demoReply": "demo reply",
+    "status": {
+      "idle": "Tap the mic to talk to {name}",
+      "starting": "Starting the microphone…",
+      "listening": "Listening…",
+      "review": "Check what you said, then send",
+      "thinking": "{name} is thinking…",
+      "speaking": "{name} is speaking",
+      "paused": "Paused",
+      "error": "Something needs your attention",
+      "muted": "Microphone muted"
+    },
+    "speakNow": "Speak now — tap Done when you finish.",
+    "reviewLabel": "I heard (you can edit):",
+    "discard": "Discard",
+    "retry": "Say it again",
+    "send": "Send to {name}",
+    "mute": "Mute microphone",
+    "unmute": "Unmute microphone",
+    "startListening": "Talk to {name}",
+    "stopListening": "Done talking",
+    "replay": "Replay last answer",
+    "demoNote": "Demo · device speech, simulated answers",
+    "demoReplies": {
+      "arif": {
+        "r1": "Great question! Start at Masmak Fortress in the morning — it's where the story of modern Riyadh begins. Then walk to Murabba Palace and the National Museum next door.",
+        "r2": "For lunch, try a traditional Najdi dish like jareesh or kabsa near Al-Murabba. In the late afternoon, Diriyah's At-Turaif district is beautiful as the sun goes down.",
+        "r3": "I can turn this into a plan you can save. Just say “make it a plan” in the chat and I'll prepare the stops with times."
+      },
+      "roaya": {
+        "r1": "Happy to help! For a calm day, begin at the National Museum while it's quiet, then take a long lunch break before heading to Al-Bujairi Terrace in the evening.",
+        "r2": "At Expo 2030 I'd group the AI and technology pavilions together, so you walk less and have time for the live demonstrations.",
+        "r3": "Would you like me to add a rest break between stops? It keeps the day relaxed, especially with family."
+      }
+    }
+  },
+  "nav": {
+    "chat": "Chat",
+    "discover": "Discover",
+    "expo": "Expo 2030",
+    "plans": "My Plans",
+    "profile": "Profile",
+    "mainLabel": "Main navigation",
+    "home": "Morshid home",
+    "brand": "Morshid",
+    "breadcrumbLabel": "You are here"
+  },
+  "shell": {
+    "skipToContent": "Skip to content",
+    "expiry": "{days, plural, =0 {Subscription expires today} one {Subscription expires in # day} other {Subscription expires in # days}}",
+    "credits": {
+      "aria": "AI credits: {remaining} of {allowance} left — view subscription & credits"
+    },
+    "sidebar": {
+      "collapse": "Collapse sidebar",
+      "expand": "Expand sidebar"
+    },
+    "notifications": {
+      "label": "Notifications",
+      "title": "Notifications",
+      "emptyTitle": "You're all caught up",
+      "emptyBody": "Plan reminders and updates will appear here. The notification center arrives in Phase 11."
+    },
+    "user": {
+      "menu": "Account menu",
+      "menuFor": "Account menu: {name} ({plan})",
+      "guest": "Guest",
+      "guestNote": "Not signed in",
+      "demoName": "Sara Ahmed (demo)",
+      "demoInitials": "SA",
+      "planLine": "{plan} plan · demo account",
+      "settings": "Profile & settings",
+      "subscription": "Subscription & credits",
+      "signIn": "Sign in",
+      "signInToast": "Sign-in screens arrive in Phase 11.",
+      "signOut": "Sign out",
+      "signedOutToast": "Signed out"
+    }
+  },
+  "placeholder": {
+    "badge": "Arrives in Phase {n}",
+    "whatsComing": "What you'll find here",
+    "previewLink": "Preview the approved components"
+  },
+  "sectionsInfo": {
+    "chat": {
+      "title": "Chat with Arif & Roaya",
+      "description": "Ask your AI companions for ideas, itineraries and stories about Riyadh, Saudi Arabia and Expo 2030.",
+      "items": {
+        "i1": "Conversations with history, search and character switching",
+        "i2": "Recommendations and itinerary proposals you can save to My Plans",
+        "i3": "Voice input, read-aloud and voice conversation mode"
+      }
+    },
+    "discover": {
+      "title": "Discover Riyadh & beyond",
+      "description": "Search and browse heritage, museums, nature, food and more — in a list or on the map.",
+      "items": {
+        "i1": "Featured destinations, categories and search",
+        "i2": "Real map with places you can tap",
+        "i3": "Place details with “Add to plan” and “Ask Arif”"
+      }
+    },
+    "expo": {
+      "title": "Expo 2030 Riyadh",
+      "description": "Explore zones and booths on an interactive, clearly illustrative Expo layout.",
+      "items": {
+        "i1": "Zones, booths and activities",
+        "i2": "Booth details and Expo plans",
+        "i3": "An illustrative map — never presented as official"
+      }
+    },
+    "plans": {
+      "title": "My Plans",
+      "description": "Your saved itineraries — create, edit, follow on the map and track your progress.",
+      "items": {
+        "i1": "Upcoming, in-progress, completed and draft plans",
+        "i2": "List and map views with a route timeline",
+        "i3": "Guided mode with manual stop completion"
+      }
+    }
+  },
+  "settingsPage": {
+    "title": "Profile & settings",
+    "subtitle": "Appearance, language, and your (demo) subscription and credits.",
+    "appearance": "Appearance & language",
+    "theme": "Theme",
+    "themeHint": "Light, dark or follow your device.",
+    "language": "Language",
+    "languageHint": "Switching keeps your current page.",
+    "laterTitle": "Coming in Phase 11",
+    "laterBadge": "Not available yet",
+    "later": {
+      "profile": "Profile details",
+      "notifications": "Notification preferences",
+      "security": "Account security"
+    },
+    "devTitle": "Developer tools",
+    "devBadge": "Dev only",
+    "guestTitle": "You’re browsing as a guest",
+    "guestBody": "Sign in to edit your profile, notification preferences, security and subscription.",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signedOut": "Signed out",
+    "profile": "Profile",
+    "avatarHint": "Your initials are used as your picture.",
+    "nameAr": "Name (Arabic)",
+    "nameEn": "Name (English)",
+    "email": "Email",
+    "emailReadOnly": "The email can’t be changed in the demo.",
+    "saveProfile": "Save profile",
+    "profileSaved": "Profile saved",
+    "errorToast": "Something went wrong. Please try again.",
+    "notifications": "Notification preferences",
+    "notificationsHint": "Choose which demo notifications appear in the app.",
+    "prefsHint": {
+      "reminder": "Upcoming stops and plans",
+      "plan_update": "Saves, copies and completed plans",
+      "recommendation": "Ideas based on your plans",
+      "announcement": "News about MORSHID"
+    },
+    "security": "Security",
+    "mockBadge": "Demo",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password",
+    "changePassword": "Change password",
+    "passwordChanged": "Password changed",
+    "passwordDemo": "Demo — nothing was stored."
+  },
+  "resetDemo": {
+    "title": "Reset demo data",
+    "hint": "Restores the original demo plans, conversations, notifications and subscription saved in this browser.",
+    "button": "Reset demo data",
+    "confirm": "Yes, reset",
+    "cancel": "Cancel",
+    "question": "Reset all demo data in this browser?",
+    "done": "Demo data reset"
+  },
+  "proposal": {
+    "stepsLabel": "Proposed itinerary",
+    "editControls": "Edit {name}",
+    "moveUp": "Move {name} earlier",
+    "moveDown": "Move {name} later",
+    "removeNamed": "Remove {name}",
+    "askAbout": "Ask about this stop",
+    "remove": "Remove",
+    "removedToast": "“{name}” removed from the proposal",
+    "save": "Save to My Plans",
+    "saving": "Saving…",
+    "savedToast": "Saved to My Plans",
+    "savedToastDescription": "Demo save — stored in this session only.",
+    "saveFailed": "Couldn't save the plan. Try again.",
+    "savedTitle": "Saved to My Plans",
+    "savedDemoNote": "Demo: kept in this session, not on a server.",
+    "openPlan": "Open plan",
+    "openPlanToast": "My Plans opens here once it's built (Phase 8).",
+    "edit": "Edit itinerary",
+    "doneEditing": "Done editing",
+    "continueChatting": "Continue chatting",
+    "stopsCount": "{count, plural, =0 {No stops} one {# stop} other {# stops}}",
+    "tripType": {
+      "tourism": "Riyadh & Saudi",
+      "expo": "Expo 2030"
+    },
+    "proposalNotice": "This is a suggestion from your companion. Nothing is saved until you choose “Save to My Plans”.",
+    "showRoute": "Show route",
+    "hideRoute": "Hide route",
+    "editingHint": "Reorder with the arrows or remove stops. Times, numbers and the route update as you go.",
+    "emptyTitle": "No stops left",
+    "emptyDescription": "You removed every stop. Restore the suggestions or ask for new ideas.",
+    "restore": "Restore suggestions",
+    "askForMore": "Ask for new ideas",
+    "estimatesNote": "Times and durations are estimates (15 min between stops) — not live travel times."
+  },
+  "discover": {
+    "label": "Discover destinations",
+    "searchLabel": "Search destinations",
+    "searchPlaceholder": "Search places, areas or experiences",
+    "regionLabel": "Region",
+    "region": {
+      "all": "All",
+      "riyadh": "Riyadh",
+      "saudi": "Outside Riyadh"
+    },
+    "categoriesLabel": "Categories",
+    "categories": {
+      "heritage": "Heritage & history",
+      "museums": "Museums",
+      "nature": "Nature & outdoors",
+      "food": "Food & cafés",
+      "shopping": "Shopping",
+      "entertainment": "Entertainment",
+      "family": "Family",
+      "culture": "Culture"
+    },
+    "resultsCount": "{count, plural, =0 {No places match} one {# place} other {# places}}",
+    "clearFilters": "Clear filters",
+    "emptyTitle": "No places match your search",
+    "emptyDescription": "Try another word, a different region, or fewer categories.",
+    "featuredTitle": "Featured",
+    "resultsTitle": "Results",
+    "allTitle": "More to explore",
+    "browseByCategory": "Browse by category",
+    "placesCount": "# places",
+    "addToPlan": "Add to plan",
+    "addToPlanNamed": "Add {name} to a plan",
+    "addedToast": "{name} added to your plan (demo)",
+    "openDetails": "View details: {name}",
+    "askArif": "Ask Arif",
+    "askToast": "Opens a chat about this place (Chat phase)."
+  },
+  "subscription": {
+    "back": "Back",
+    "title": "Choose how you explore",
+    "subtitle": "Every plan includes Discover, the illustrative Expo 2030 experience and your AI companions. Plans differ in how much you can ask and plan each month.",
+    "proposalBadge": "Proposed plans · demo",
+    "current": {
+      "guest": "You're browsing as a guest",
+      "label": "Current plan: {plan}"
+    },
+    "intervalLabel": "Billing period",
+    "interval": {
+      "monthly": "Monthly",
+      "annual": "Annual"
+    },
+    "intervalNote": "Prices aren't final yet. No discounts or offers are shown until they're confirmed.",
+    "recommended": "Recommended for most travelers",
+    "currentBadge": "Current plan",
+    "price": {
+      "tbd": "Price to be confirmed",
+      "free": "Free",
+      "per": {
+        "monthly": "per month",
+        "annual": "per year"
+      }
+    },
+    "plans": {
+      "free": {
+        "name": "Explorer",
+        "tier": "Free",
+        "description": "Discover Riyadh, Saudi Arabia and Expo 2030 with a starter allowance of AI help."
+      },
+      "plus": {
+        "name": "Traveler",
+        "tier": "Plus",
+        "description": "More conversations and itineraries, saved plans and personal recommendations."
+      },
+      "premium": {
+        "name": "Ultimate Explorer",
+        "tier": "Premium",
+        "description": "The highest AI allowance and the richest planning tools for frequent travelers."
+      }
+    },
+    "benefits": {
+      "credits": "{count} AI credits per month",
+      "proposals": "{count, plural, one {# itinerary proposal} other {# itinerary proposals}} per month",
+      "proposalsUnlimited": "Itinerary proposals without a separate cap",
+      "saved": "{count, plural, one {Save # plan} other {Save up to # plans}}",
+      "savedUnlimited": "Save as many plans as you like",
+      "customization": {
+        "basic": "Basic itinerary editing",
+        "extended": "Extended customization",
+        "advanced": "Advanced customization"
+      },
+      "personalization": "Personalization options",
+      "recommendations": "Enhanced recommendations",
+      "priorityFuture": "Faster responses — future capability"
+    },
+    "cta": {
+      "current": "Your current plan",
+      "signInFirst": "Sign in to choose",
+      "upgrade": "Upgrade to {plan}",
+      "switch": "Switch to {plan}"
+    },
+    "guestHint": "Guests get 10 demo credits. Sign in (demo) to choose a plan and save itineraries.",
+    "table": {
+      "title": "Compare plans",
+      "caption": "Feature comparison between Explorer, Traveler and Ultimate Explorer",
+      "feature": "Feature",
+      "note": "Allowances are initial proposals and may change. Faster responses are a future capability and are not available yet."
+    },
+    "features": {
+      "credits": "AI credits per month",
+      "proposals": "Itinerary proposals",
+      "saved": "Saved plans",
+      "customization": "Itinerary customization",
+      "personalization": "Personalization",
+      "recommendations": "Enhanced recommendations",
+      "priority": "Faster responses",
+      "discover": "Discover & Expo experience"
+    },
+    "values": {
+      "noCap": "No cap",
+      "included": "Included",
+      "notIncluded": "Not included",
+      "basic": "Basic",
+      "extended": "Extended",
+      "advanced": "Advanced",
+      "future": "Future"
+    },
+    "notNow": "Not now — keep my plan",
+    "demoBadge": "Demo · no payment",
+    "change": {
+      "title": {
+        "upgrade": "Upgrade to {plan}?",
+        "downgrade": "Switch to {plan}?",
+        "same": "Keep {plan}?"
+      },
+      "description": "You'll get {credits} AI credits per month, billed {interval}.",
+      "cancel": "Cancel",
+      "confirm": "Confirm (demo)",
+      "noPayment": "This is a demo. No payment is taken and no card is needed — only the simulated subscription changes.",
+      "downgradeNote": "Credits you already used this month still count toward the new allowance.",
+      "successToast": "You're now on {plan}",
+      "successDemo": "Demo only — no real subscription was changed.",
+      "failed": "Couldn't change the plan. Try again."
+    },
+    "credits": {
+      "label": "AI credits",
+      "remainingOf": "{remaining} of {allowance} left",
+      "demo": "Demo credits",
+      "empty": "You've used all your credits for this period.",
+      "low": "You're running low on credits.",
+      "renews": "Renews on {date}",
+      "guestNote": "Guest credits don't renew. Sign in to get a monthly allowance."
+    },
+    "limits": {
+      "low_credits": {
+        "title": "Credits running low",
+        "body": "AI replies use 1 credit each. Browsing, reading and your saved plans stay free."
+      },
+      "out_of_credits": {
+        "title": "You've reached your AI limit",
+        "body": "New AI replies need credits. You can still browse Discover, read past answers and open your plans."
+      },
+      "save_limit": {
+        "title": "Saved-plan limit reached",
+        "body": "Remove an old plan or choose a plan with more space."
+      },
+      "sign_in_required": {
+        "title": "Sign in to save plans",
+        "body": "Guests can chat and explore. Saving plans needs an account."
+      },
+      "upgradeCta": "See plans"
+    },
+    "status": {
+      "active": "Active",
+      "cancel_scheduled": "Ends at period end",
+      "expired": "Expired"
+    },
+    "settings": {
+      "title": "Subscription & credits",
+      "currentPlan": "Current plan",
+      "interval": "Billing",
+      "renewsOn": "Renews",
+      "endsOn": "Ends",
+      "cancelScheduledNote": "Your plan stays active until {date}, then moves to Explorer (free).",
+      "changePlan": "Change plan",
+      "resume": "Keep my plan",
+      "resumedToast": "Your plan will continue",
+      "cancel": "Cancel subscription",
+      "guestTitle": "You're using Morshid as a guest",
+      "guestBody": "Sign in to get a monthly credit allowance, save plans and manage a subscription.",
+      "signIn": "Sign in (demo)",
+      "signInToast": "Sign-in screens arrive in Phase 11.",
+      "freeActionsNote": "Free by rule: browsing, reading answers, read-aloud on your device and saving plans (within your plan's limit).",
+      "cancelTitle": "Cancel your subscription?",
+      "cancelDescription": "You keep your current benefits until {date}. After that you move to Explorer (free).",
+      "cancelBody": "Your saved plans stay. Nothing is charged or refunded — this is a demo.",
+      "keepPlan": "Keep my plan",
+      "confirmCancel": "Cancel at period end",
+      "canceledToast": "Cancellation scheduled"
+    },
+    "history": {
+      "title": "Credit usage",
+      "caption": "Recent credit usage",
+      "action": "Activity",
+      "date": "Date",
+      "change": "Credits",
+      "balance": "Balance",
+      "free": "Free",
+      "emptyTitle": "No usage yet",
+      "emptyDescription": "Ask Arif or Roaya something to see your credit activity here.",
+      "kinds": {
+        "ai_reply": "AI reply",
+        "voice_reply": "Voice reply",
+        "itinerary_proposal": "Itinerary proposal",
+        "save_plan": "Saved a plan",
+        "browse": "Browsing",
+        "read_aloud": "Read aloud",
+        "period_grant": "Monthly allowance",
+        "plan_change": "Plan change"
+      }
+    }
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toDark": "Switch to dark mode",
+    "toLight": "Switch to light mode"
+  },
+  "language": {
+    "label": "Change language"
+  },
+  "designSystem": {
+    "title": "MORSHID design system",
+    "subtitle": "Gate C review · foundations and core components",
+    "sectionsNav": "Design system sections",
+    "reviewBadge": "For review",
+    "heroTitle": "One visual language for Morshid",
+    "heroBody": "Every color, type style and component the app will use, shown in the current language and theme. Switch language and theme at the top to review Arabic RTL, English LTR, light and dark.",
+    "sections": {
+      "brand": {
+        "title": "Brand",
+        "description": "Logo, the brand gradient and the accessible CTA gradient, and each character's accent color."
+      },
+      "colors": {
+        "title": "Colors",
+        "description": "Semantic tokens. Components only use these names, so both themes stay consistent."
+      },
+      "typography": {
+        "title": "Typography",
+        "description": "Cairo for headings (temporary stand-in for Expo Arabic), Tajawal for body text. Arabic gets looser line-height."
+      },
+      "shape": {
+        "title": "Shape & space",
+        "description": "Corner radii, elevation and the 4px spacing scale."
+      },
+      "icons": {
+        "title": "Icons",
+        "description": "Lucide icons, 1.75 stroke. Directional icons mirror in Arabic."
+      },
+      "buttons": {
+        "title": "Buttons",
+        "description": "The gradient style is reserved for signature actions such as send, new conversation and start plan."
+      },
+      "forms": {
+        "title": "Forms",
+        "description": "Inputs with labels, hints and validation messages; search fields; selection controls."
+      },
+      "tabs": {
+        "title": "Tabs & toggles",
+        "description": "Segmented controls switch views; underline tabs switch content groups."
+      },
+      "badges": {
+        "title": "Badges",
+        "description": "Priority badges always pair an icon with the label, never color alone."
+      },
+      "cards": {
+        "title": "Cards & avatars",
+        "description": "Flat, raised and floating (over the map) cards. Character avatars carry their accent ring."
+      },
+      "overlays": {
+        "title": "Overlays",
+        "description": "Confirmation dialog, bottom and side sheets, menus, tooltips and toasts. Sides follow the reading direction."
+      },
+      "feedback": {
+        "title": "Loading, empty & error",
+        "description": "Every data view has these three states."
+      },
+      "navigation": {
+        "title": "Navigation",
+        "description": "Breadcrumbs and pagination; arrows point in the reading direction."
+      }
+    },
+    "brand": {
+      "logoAlt": "Morshid logo",
+      "arifAlt": "Arif, a boy in a red shemagh rising from teal smoke",
+      "roayaAlt": "Roaya, a girl in a black abaya rising from violet smoke",
+      "arifName": "Arif",
+      "roayaName": "Roaya",
+      "arifAccent": "Accent: teal",
+      "roayaAccent": "Accent: violet"
+    },
+    "colorGroups": {
+      "surfaces": "Surfaces & borders",
+      "text": "Text",
+      "actions": "Actions & brand",
+      "status": "Status",
+      "characters": "Characters"
+    },
+    "typography": {
+      "fonts": "Type scale",
+      "headingSample": "Discover Riyadh",
+      "bodySample": "Masmak Fortress is a clay-brick fort in the heart of old Riyadh.",
+      "mixed": "Mixed Arabic and English",
+      "mixedSample": "Visit Masmak Fortress (قصر المصمك) at 09:00, then Al-Bujairi Terrace."
+    },
+    "shape": {
+      "radius": "Radius",
+      "elevation": "Elevation",
+      "spacing": "Spacing (px)"
+    },
+    "icons": {
+      "navigation": "Navigation icons",
+      "direction": "Direction-aware icons",
+      "directionNote": "Blue icons mirror in Arabic; neutral icons never flip.",
+      "names": {
+        "chat": "Chat",
+        "discover": "Discover",
+        "expo": "Expo 2030",
+        "plans": "My Plans",
+        "profile": "Profile",
+        "switchCharacter": "Switch character"
+      }
+    },
+    "buttons": {
+      "variants": "Variants",
+      "sizesStates": "Sizes & states",
+      "newConversation": "New conversation",
+      "saveToPlans": "Save to My Plans",
+      "editPlan": "Edit plan",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "viewDetails": "View details",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "clickToLoad": "Click to load",
+      "disabled": "Disabled",
+      "send": "Send",
+      "notifications": "Notifications",
+      "more": "More options"
+    },
+    "forms": {
+      "search": "Search",
+      "searchLabel": "Search places",
+      "searchPlaceholder": "What would you like to explore?",
+      "historySearch": "Search conversations",
+      "fields": "Fields & validation",
+      "planName": "Plan name",
+      "planNamePlaceholder": "e.g. Riyadh heritage day",
+      "nameError": "Enter a plan name.",
+      "planType": "Plan type",
+      "choose": "Choose…",
+      "tourism": "Riyadh & Saudi tourism",
+      "expo": "Expo 2030",
+      "startTime": "Start time",
+      "startTimeHint": "You can change it later.",
+      "notes": "Notes",
+      "notesPlaceholder": "Anything to remember for this trip",
+      "selection": "Selection controls",
+      "markCompleted": "Mark stop as completed",
+      "reminders": "Itinerary reminders"
+    },
+    "tabs": {
+      "segmented": "Segmented controls",
+      "chatView": "Chat view",
+      "planView": "Plan view",
+      "chat": "Chat",
+      "map": "Map",
+      "list": "List",
+      "underline": "Underline tabs",
+      "panelText": "Plans in “{tab}” appear here.",
+      "plans": {
+        "all": "All",
+        "upcoming": "Upcoming",
+        "inProgress": "In progress",
+        "completed": "Completed",
+        "drafts": "Drafts"
+      }
+    },
+    "badges": {
+      "priority": "Recommendation priority",
+      "status": "Status & category",
+      "upcoming": "Upcoming",
+      "inProgress": "In progress",
+      "completed": "Completed",
+      "draft": "Draft",
+      "closed": "Closed now",
+      "heritage": "Heritage",
+      "arif": "Arif",
+      "roaya": "Roaya"
+    },
+    "cards": {
+      "placeholderImage": "Placeholder image",
+      "placeName": "Masmak Fortress",
+      "placeMeta": "Heritage · Al-Dirah, Riyadh",
+      "duration": "Suggested visit: 1 hour",
+      "planTitle": "Riyadh heritage day",
+      "planMeta": "Sat · 5 stops · 6 h",
+      "progress": "Progress",
+      "progressValue": "2 of 5 stops completed",
+      "startPlan": "Start plan",
+      "floatingTitle": "Floating card",
+      "floatingDescription": "Used for place details over the map.",
+      "addToPlan": "Add to plan",
+      "avatars": "Avatars",
+      "userName": "Sara Ahmed",
+      "userInitials": "SA",
+      "avatarNote": "Proper head-and-shoulders crops for Arif and Roaya are made in Phase 3."
+    },
+    "overlays": {
+      "triggers": "Try them",
+      "deletePlan": "Delete plan",
+      "confirmTitle": "Delete this plan?",
+      "confirmDescription": "“Riyadh heritage day” and its 5 stops will be removed.",
+      "confirmBody": "This can't be undone.",
+      "deletedToast": "Plan deleted (demo)",
+      "openFilters": "Filters (bottom sheet)",
+      "filtersTitle": "Filters",
+      "showResults": "Show results",
+      "filters": {
+        "family": "Family-friendly",
+        "indoor": "Indoor",
+        "free": "Free entry"
+      },
+      "openHistory": "History (side sheet)",
+      "historyTitle": "Conversations",
+      "history": {
+        "one": "AI pavilions at Expo — 3 hours",
+        "two": "Riyadh heritage in one day",
+        "three": "Family evening ideas"
+      },
+      "menu": "Menu",
+      "rename": "Rename",
+      "tooltipText": "Tooltips add hints; they never replace labels.",
+      "hoverMe": "Hover or focus me",
+      "showToast": "Show toast",
+      "savedToast": "Saved to My Plans",
+      "savedToastDescription": "Riyadh heritage day · 5 stops"
+    },
+    "feedback": {
+      "loading": "Loading (skeleton)",
+      "empty": "Empty",
+      "error": "Error",
+      "emptyTitle": "No plans yet",
+      "emptyDescription": "Ask Arif or Roaya for an itinerary, or create one yourself.",
+      "createPlan": "Create plan"
+    },
+    "navigation": {
+      "breadcrumbs": "Breadcrumbs",
+      "pagination": "Pagination",
+      "discover": "Discover",
+      "heritage": "Heritage"
+    },
+    "mapPreview": {
+      "label": "Map preview · illustrative"
+    },
+    "surfaces": {
+      "title": "Theme surfaces",
+      "description": "The layered surface stack, side by side in light and dark. Dark mode uses deepening midnight-navy layers, translucent hairlines, a faint ambient glow and deep soft shadows; brand blue and pink are reserved for emphasis.",
+      "stack": "Surface stack (back → front)",
+      "layers": {
+        "canvas": "Canvas",
+        "nav": "Navigation",
+        "chat": "Chat surface",
+        "card": "Card",
+        "elevated": "Dialog / menu",
+        "floating": "Floating over map"
+      },
+      "light": "Light",
+      "dark": "Dark",
+      "sampleNav": "Navigation",
+      "sampleChat": "Arif is ready to plan your day.",
+      "sampleCardTitle": "Riyadh heritage day",
+      "sampleCardMeta": "Sat · 5 stops",
+      "sampleDialog": "Delete this plan?",
+      "sampleFloating": "Masmak Fortress · 1 h",
+      "activeState": "Active",
+      "voiceActivity": "Voice activity",
+      "disabled": "Disabled"
+    },
+    "trip": {
+      "title": "Trip details & route",
+      "description": "Progress from manually completed stops, a continuous route timeline, every stop state, and a map kept in sync. Select a stop in the list or on the map; expand it for details and actions.",
+      "legend": "Stop states",
+      "legendItems": {
+        "start": "Starting point",
+        "completed": "Completed",
+        "current": "Current stop",
+        "upcoming": "Remaining (numbered)",
+        "overdue": "Overdue",
+        "break": "Lunch / rest",
+        "destination": "Final destination"
+      },
+      "demoClock": "Demo clock",
+      "demoClockNote": "Overdue states use the time of day on the plan's date. Here a demo clock replaces the real clock so you can see each state.",
+      "notToday": "Plan not today",
+      "location": "Location source",
+      "locationModes": {
+        "live": "Live browser",
+        "denied": "Simulate denied",
+        "unavailable": "Simulate unavailable",
+        "unsupported": "Simulate unsupported"
+      },
+      "locationNote": "“Live browser” asks your real browser for permission. The simulations only reproduce failures — Morshid never invents a position.",
+      "wide": "Wide layout — map with floating panel",
+      "phone": "Phone layout — map with bottom sheet",
+      "planTitle": "Heritage day in Riyadh & Diriyah",
+      "planSubtitle": "Saturday · demo plan",
+      "mapLabel": "Illustrative route · not real geography",
+      "stops": {
+        "start": {
+          "name": "Hotel pickup",
+          "area": "Al-Olaya, Riyadh (demo)",
+          "description": "Your day starts here. A car or taxi to Al-Dirah takes about 20 minutes, depending on traffic.",
+          "t1": "Leave before 08:40 to beat the morning traffic.",
+          "t2": "Bring water and a hat for the outdoor courtyards."
+        },
+        "masmak": {
+          "name": "Masmak Fortress",
+          "area": "Al-Dirah",
+          "description": "A clay and mud-brick fortress, best known as the site of King Abdulaziz's recapture of Riyadh in 1902.",
+          "t1": "Look for the spearhead in the old wooden gate.",
+          "t2": "Mornings are cooler and quieter."
+        },
+        "murabba": {
+          "name": "Murabba Palace",
+          "area": "King Abdulaziz Historical Center",
+          "description": "King Abdulaziz's palace and seat of government, built in traditional Najdi mud-brick style in the 1930s.",
+          "t1": "The upper floor shows original decorated ceilings.",
+          "t2": "Photography is allowed in most rooms."
+        },
+        "lunch": {
+          "name": "Lunch break",
+          "area": "Near Al-Murabba (suggested)",
+          "description": "A rest and a traditional Najdi meal — try jareesh or kabsa. Suggested 60 minutes.",
+          "t1": "Optional: shift it earlier or later to fit your pace.",
+          "t2": "Many places close briefly for prayer times."
+        },
+        "museum": {
+          "name": "National Museum",
+          "area": "King Abdulaziz Historical Center",
+          "description": "The story of the Arabian Peninsula from prehistoric times to the unification of the Kingdom.",
+          "t1": "Start with the ancient Arabian kingdoms gallery.",
+          "t2": "Allow at least 90 minutes."
+        },
+        "turaif": {
+          "name": "At-Turaif District",
+          "area": "Diriyah",
+          "description": "A UNESCO World Heritage Site and the birthplace of the first Saudi state, with restored mud-brick palaces.",
+          "t1": "Golden hour light is beautiful on the walls.",
+          "t2": "Wear comfortable shoes — paths are uneven."
+        },
+        "bujairi": {
+          "name": "Al-Bujairi Terrace",
+          "area": "Diriyah",
+          "description": "End the day at the dining terrace overlooking At-Turaif.",
+          "t1": "Reservations help on weekends.",
+          "t2": "The view of the lit-up district starts at sunset."
+        }
+      }
+    },
+    "voiceMode": {
+      "title": "Voice conversation mode",
+      "description": "A dedicated voice experience for Arif and Roaya, opened from the chat. Speech is the device's own (demo); answers are simulated. Every state below is also reachable live.",
+      "launch": "Open it",
+      "openWith": "Talk with {name}",
+      "services": "Voice services",
+      "serviceModes": {
+        "live": "Live browser",
+        "simulated": "Simulated (works everywhere)",
+        "denied": "Simulate permission denied",
+        "unsupported": "Simulate unsupported browser"
+      },
+      "servicesNote": "“Live browser” uses your real microphone and device voices where supported. The simulations let you review the experience on any device.",
+      "states": "States",
+      "stateLabels": {
+        "starting": "Loading microphone",
+        "listening": "Listening",
+        "review": "Review before sending",
+        "thinking": "Thinking",
+        "speaking": "Speaking",
+        "paused": "Paused",
+        "denied": "Permission denied",
+        "unsupported": "Unsupported browser"
+      },
+      "sampleHeard": "What should I see first in Riyadh?",
+      "sampleInterim": "What should I see first",
+      "limitations": "Limitations",
+      "limitationNotes": {
+        "l1": "Speech recognition depends on the browser (Chrome, Edge, Safari). Firefox has none; the mic explains this.",
+        "l2": "Chrome and Edge send recorded audio to their own recognition service. Morshid stores nothing.",
+        "l3": "The voice is the device's text-to-speech, so quality and Arabic availability vary. It is never presented as Arif's or Roaya's own voice.",
+        "l4": "Browser speech gives no audio levels, so the speaking animation is a gentle rhythm, not a true waveform. Listening uses real microphone levels.",
+        "l5": "Answers are simulated in this demo. The real assistant plugs into the same conversation loop later."
+      }
+    },
+    "cardsAvatars": {
+      "description": "Card types with a clear hierarchy (eyebrow → title → description → meta → actions), consistent 16px radius and spacing, and restrained states. Avatars keep the original artwork with a size for every context.",
+      "types": "Card types",
+      "destination": {
+        "name": "Masmak Fortress",
+        "area": "Al-Dirah, Riyadh",
+        "category": "Heritage",
+        "summary": "The clay fort where the story of modern Riyadh began in 1902.",
+        "duration": "1 h",
+        "open": "View details: Masmak Fortress"
+      },
+      "openedToast": "Opens the detail view.",
+      "addToPlan": "Add to plan",
+      "addedToast": "Added to your plan (demo)",
+      "plan": {
+        "date": "Sat 17 Oct",
+        "status": "In progress",
+        "title": "Heritage day in Riyadh",
+        "stops": "5 stops",
+        "duration": "5 h 30 min",
+        "progress": "Progress",
+        "progressValue": "2 of 5",
+        "continue": "Continue",
+        "edit": "Edit plan"
+      },
+      "reco": {
+        "name": "National Museum",
+        "why": "Matches your interest in history — and it's next to Murabba Palace.",
+        "duration": "1 h 30 min"
+      },
+      "glass": {
+        "map": "Map preview",
+        "title": "Floating card",
+        "description": "Glass surface for content over maps.",
+        "action": "Ask Arif"
+      },
+      "states": "States",
+      "selectableLabel": "Choose a plan",
+      "state": {
+        "option": {
+          "a": "Riyadh heritage day",
+          "b": "Modern Riyadh evening"
+        },
+        "selected": "Selected",
+        "selectableNote": "Selected: primary ring + tint. Hover lifts slightly; press settles.",
+        "disabledTitle": "Unavailable card",
+        "disabledBody": "Dimmed and not clickable — e.g. a plan feature you don't have.",
+        "unavailable": "Unavailable",
+        "focusTitle": "Keyboard focus",
+        "focusBody": "Press Tab: the whole card shows a focus ring while its link is focused."
+      },
+      "avatarSizes": "Character avatar sizes & states",
+      "avatar": {
+        "selected": "Selected",
+        "speaking": "Speaking",
+        "userNote": "User avatars use initials until a photo exists."
+      },
+      "userName": "Sara Ahmed",
+      "userInitials": "SA",
+      "avatarContexts": "Avatars in context",
+      "context": {
+        "header": "Chat header (md)",
+        "bubble": "Message bubble (sm)",
+        "bubbleText": "Shall I add a lunch break after Murabba Palace?",
+        "compact": "Compact list (xs)",
+        "history": {
+          "one": "Riyadh heritage in half a day",
+          "two": "AI pavilions at Expo"
+        }
+      },
+      "picker": "Character selection",
+      "pickerLabel": "Choose your companion",
+      "pickerCompactLabel": "Choose your companion (compact)"
+    },
+    "tables": {
+      "title": "Tables",
+      "description": "For data people compare across rows — plans, credit history, plan features. Hairline separators, a quiet header, numeric columns aligned to the end, selectable rows, loading and empty states. Narrow spaces turn rows into stacked cards.",
+      "controls": "States",
+      "loading": "Loading",
+      "empty": "Empty",
+      "keyboardNote": "Rows are selectable with the mouse or Tab + Enter. Long names are truncated with the full text on hover.",
+      "wide": "Wide container",
+      "narrow": "Narrow container (phone) — stacked cards",
+      "whenToUse": "Use a table only when columns are compared. For browsing, prefer cards (Discover) or lists (timeline).",
+      "caption": "My plans",
+      "col": {
+        "name": "Plan",
+        "type": "Type",
+        "date": "Date",
+        "stops": "Stops",
+        "duration": "Duration",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "rows": {
+        "p1": "Heritage day in Riyadh & Diriyah",
+        "p2": "Expo 2030 — AI & technology pavilions in half a day",
+        "p3": "Modern Riyadh evening",
+        "p4": "Family weekend: parks and museums around Al-Murabba",
+        "p5": "Souq Al-Zal and Masmak morning"
+      },
+      "type": {
+        "tourism": "Tourism",
+        "expo": "Expo 2030"
+      },
+      "hours": "{m, plural, =0 {{h} h} other {{h} h # min}}",
+      "rowActions": "Actions for {name}",
+      "emptyTitle": "No plans yet",
+      "emptyDescription": "Ask Arif or Roaya for an itinerary, or create one yourself.",
+      "emptyAction": "Create plan"
+    },
+    "proposal": {
+      "sectionTitle": "Plan proposal sheet",
+      "sectionDescription": "An AI itinerary to review before saving: compact summary, connected steps, expandable details, reorder/remove, and a prominent Save to My Plans. Bottom sheet on phones, side panel on wider screens.",
+      "launch": "Try it",
+      "open": "Open Arif's proposal",
+      "reset": "Start a fresh proposal",
+      "resetToast": "A fresh proposal is ready.",
+      "notes": {
+        "n1": "Stops are compact by default; tap one to see its context, tips and actions.",
+        "n2": "“Edit itinerary” shows reorder arrows and remove buttons. Numbers, times, connectors, the summary and the route map update instantly.",
+        "n3": "Removing a stop shows Undo instead of a confirmation dialog.",
+        "n4": "“Save to My Plans” is the only way the proposal becomes a plan. Saving twice never creates a duplicate.",
+        "n5": "Saving is simulated (demo) and kept in this session only."
+      },
+      "title": "Old Riyadh in one day",
+      "description": "A relaxed heritage route through the old city, from Masmak Fortress to sunset in Diriyah.",
+      "scheduleHint": "Saturday · full day",
+      "mapLabel": "Illustrative route",
+      "askToast": "Opens the chat with this stop as context.",
+      "stops": {
+        "start": {
+          "name": "Hotel pickup",
+          "area": "Al-Olaya (demo)",
+          "summary": "Your day starts here.",
+          "context": "",
+          "tip": "Leave before 08:40 to beat the morning traffic."
+        },
+        "masmak": {
+          "name": "Masmak Fortress",
+          "area": "Al-Dirah",
+          "summary": "The clay fort where modern Riyadh's story began.",
+          "context": "Built in the 19th century, Masmak is known for King Abdulaziz's recapture of Riyadh in 1902 — the start of the modern Saudi state.",
+          "tip": "Look for the spearhead in the old wooden gate."
+        },
+        "murabba": {
+          "name": "Murabba Palace",
+          "area": "King Abdulaziz Historical Center",
+          "summary": "King Abdulaziz's palace and seat of government.",
+          "context": "Completed in the 1930s outside the old walls, in traditional Najdi mud-brick style.",
+          "tip": "The upper floor shows original decorated ceilings."
+        },
+        "lunch": {
+          "name": "Lunch break",
+          "area": "Near Al-Murabba (suggested)",
+          "summary": "Rest and a traditional Najdi meal.",
+          "context": "Try jareesh or kabsa. Many places close briefly at prayer times.",
+          "tip": "Optional — shorten it if you prefer more museum time."
+        },
+        "museum": {
+          "name": "National Museum",
+          "area": "King Abdulaziz Historical Center",
+          "summary": "Arabia's story from ancient times to unification.",
+          "context": "Themed galleries cover the ancient Arabian kingdoms, the Hajj and the unification of the Kingdom.",
+          "tip": "Start with the ancient kingdoms gallery."
+        },
+        "souq": {
+          "name": "Souq Al-Zal",
+          "area": "Al-Dirah",
+          "summary": "One of Riyadh's oldest markets.",
+          "context": "Known for carpets, antiques, perfumes and traditional crafts near Masmak.",
+          "tip": "Afternoons are livelier."
+        },
+        "bujairi": {
+          "name": "Al-Bujairi Terrace",
+          "area": "Diriyah",
+          "summary": "Dinner overlooking At-Turaif.",
+          "context": "Dining terrace facing the UNESCO-listed At-Turaif district.",
+          "tip": "Reservations help on weekends."
+        }
+      }
+    },
+    "discoverGrid": {
+      "title": "Discover grid",
+      "description": "Editorial hierarchy: featured destinations (bento on wide screens, swipeable on phones), standard cards and compact category tiles — all driven by one search and filter state. Tap a card for details.",
+      "controls": "Preview controls",
+      "loading": "Loading state",
+      "note": "Images are labeled local placeholders. Opening hours are demo data.",
+      "wide": "Wide container",
+      "phone": "Phone",
+      "hoursDemo": "Demo hours — check before visiting",
+      "places": {
+        "turaif": {
+          "name": "At-Turaif District",
+          "area": "Diriyah",
+          "summary": "UNESCO World Heritage Site and birthplace of the first Saudi state."
+        },
+        "edge": {
+          "name": "Edge of the World",
+          "area": "Jebel Fihrayn, ~90 km from Riyadh",
+          "summary": "Sheer cliffs over an ancient seabed — best at sunset; 4×4 recommended."
+        },
+        "hegra": {
+          "name": "Hegra",
+          "area": "AlUla",
+          "summary": "Monumental Nabataean tombs and Saudi Arabia's first UNESCO site."
+        },
+        "masmak": {
+          "name": "Masmak Fortress",
+          "area": "Al-Dirah",
+          "summary": "The clay fort at the heart of old Riyadh."
+        },
+        "museum": {
+          "name": "National Museum",
+          "area": "Al-Murabba",
+          "summary": "The story of Arabia across themed galleries."
+        },
+        "bujairi": {
+          "name": "Al-Bujairi Terrace",
+          "area": "Diriyah",
+          "summary": "Restaurants and cafés facing At-Turaif."
+        },
+        "wadi": {
+          "name": "Wadi Hanifah",
+          "area": "West Riyadh",
+          "summary": "A green valley with walking paths, parks and lakes."
+        },
+        "skybridge": {
+          "name": "Kingdom Centre Sky Bridge",
+          "area": "Al-Olaya",
+          "summary": "City views from the bridge near the top of Kingdom Centre."
+        },
+        "kingAbdullahPark": {
+          "name": "King Abdullah Park",
+          "area": "Al-Malaz",
+          "summary": "A large family park with gardens and a musical fountain."
+        },
+        "souq": {
+          "name": "Souq Al-Zal",
+          "area": "Al-Dirah",
+          "summary": "Carpets, antiques and crafts in one of Riyadh's oldest markets."
+        },
+        "balad": {
+          "name": "Historic Jeddah (Al-Balad)",
+          "area": "Jeddah",
+          "summary": "Coral-stone houses with wooden rawasheen balconies."
+        },
+        "soudah": {
+          "name": "Al-Soudah",
+          "area": "Asir",
+          "summary": "Cool mountain air and juniper forests above Abha."
+        }
+      }
+    },
+    "subscription": {
+      "title": "Subscriptions & credits",
+      "description": "Proposed Explorer / Traveler / Ultimate Explorer plans, the AI credit model, limits and subscription management — all simulated. Prices aren't set, so they read “to be confirmed”.",
+      "controls": "Demo controls",
+      "demoData": "Simulated data",
+      "profile": "Demo profile",
+      "profiles": {
+        "guest": "Guest",
+        "free": "Explorer",
+        "free_low": "Explorer · low credits",
+        "plus": "Traveler",
+        "plus_expiring": "Traveler · ends in 5 days",
+        "premium": "Ultimate Explorer"
+      },
+      "simulateReply": "Simulate an AI reply (−1 credit)",
+      "simulateNote": "Uses the same rules as the app: 1 credit per AI reply; browsing and saving are free.",
+      "spentToast": "1 demo credit used",
+      "plansPage": "Plans & upgrade page",
+      "settingsSection": "Settings → Subscription & credits",
+      "backToast": "Returns to the previous screen."
+    },
+    "voice": {
+      "liveInput": "Voice input — live (uses your browser and microphone)",
+      "liveInputNote": "Tap the mic: the browser asks for microphone permission, a waveform shows while you speak, ✓ inserts the recognized text so you can edit it, ✕ or Esc cancels. Nothing is sent until you press send.",
+      "lastSent": "Last sent: “{text}”",
+      "simulatedInput": "Voice input — every state (simulated, no microphone)",
+      "simulated": "Simulated",
+      "scenario": "Scenario",
+      "inputScenarios": {
+        "success": "Works",
+        "permission-denied": "Permission denied",
+        "unsupported": "Unsupported browser",
+        "no-speech": "No speech"
+      },
+      "simulatedTranscript": "I want to visit the most important historical sites in Riyadh",
+      "simulatedInputNote": "Pick a scenario, then tap the mic. These simulate browser responses so you can review each state on any device.",
+      "liveOutput": "AI voice — live (your device's text-to-speech)",
+      "liveOutputNote": "Each reply is read in its own language. Starting one stops the other. The voice comes from your device — it is a demo voice, not Arif's or Roaya's own.",
+      "sampleArabic": "أهلًا بك في الرياض! أنصحك بالبدء من قصر المصمك في الصباح، ثم زيارة المتحف الوطني.",
+      "sampleEnglish": "Welcome to Riyadh! Start at Masmak Fortress in the morning, then continue to the National Museum.",
+      "simulatedOutput": "AI voice — every state (simulated, silent)",
+      "outputScenarios": {
+        "success": "Works",
+        "unsupported": "Unsupported browser",
+        "no-voice": "No voice for language"
+      },
+      "simulatedMessage": {
+        "one": "Masmak Fortress is a great first stop — it opens early and is where modern Riyadh's story begins.",
+        "two": "After the museum, Al-Murabba has shaded spots for a break before lunch."
+      },
+      "simulatedOutputNote": "Silent timer-based playback to show listen, pause, resume and stop, plus the fallbacks when read-aloud isn't available.",
+      "capabilities": "What works today and what needs a backend",
+      "capabilityNotes": {
+        "c1": "Works locally, free: microphone recording, waveform and cancel use standard browser APIs.",
+        "c2": "Speech-to-text uses the browser's built-in recognition (Chrome, Edge, Safari). Some browsers, e.g. Chrome, send the audio to their own speech service to transcribe it; Morshid stores nothing.",
+        "c3": "Read-aloud uses the device's text-to-speech voices — free, offline where the device has local voices.",
+        "c4": "Arif's and Roaya's own voices, consistent Arabic quality on every device, and recognition on unsupported browsers need a future speech backend (behind the same interfaces).",
+        "c5": "No paid APIs or keys are used. Audio is never recorded in the background — only after a tap.",
+        "c6": "Firefox has no speech recognition: the mic explains this instead of failing."
+      }
+    },
+    "chatPatterns": {
+      "title": "Chat",
+      "description": "Arif and Roaya's identity, messages, long answers, suggested prompts and the composer — on their own, beside the map, and on a phone.",
+      "identity": "Characters & switching",
+      "switchHint": "Switching changes the name, avatar, accent and suggestions:",
+      "emptyState": "Empty state — try a suggestion or type a message (demo reply)",
+      "welcomeWide": "Welcome screen → active conversation (wide)",
+      "welcomePhone": "Welcome screen → active conversation (phone)",
+      "welcomeNote": "Choose a suggestion card or send a message to see the switch to an active conversation (compact header, plain background, no hero). The pencil button starts a new conversation. Replies here are demo text.",
+      "newConversation": "New conversation",
+      "conversation": "Conversation — user and assistant messages, long answer, typing and error states",
+      "showError": "Show send error",
+      "besideMap": "Chat beside the map",
+      "besideMapNote": "Resize the window: when the area is narrow the chat docks at the bottom; when it is wide the chat floats on the reading-start side and can be hidden. The map is an illustrative preview — the real map arrives in Phase 5.",
+      "mobile": "On a phone",
+      "mobileNote": "On phones the chat fills the screen. The Chat/Map toggle in the top bar swaps to the map, and the composer sits directly above the bottom navigation (D-015). The bottom navigation here is a preview; the real one is built in Phase 3.",
+      "userName": "Sara Ahmed",
+      "userInitials": "SA",
+      "you": "You",
+      "userQuestion": "I have half a day — what are the most important historical places in Riyadh?",
+      "answerIntro": "Great choice — old Riyadh's key landmarks are close together, so half a day works well. Here's a suggested order:",
+      "answerStop1Title": "Masmak Fortress",
+      "answerStop1Body": "the clay-brick fort where King Abdulaziz recaptured Riyadh in 1902. About 1 hour.",
+      "answerStop2Title": "Murabba Palace",
+      "answerStop2Body": "King Abdulaziz's palace and seat of government, completed in the 1930s. About 45 minutes.",
+      "answerStop3Title": "National Museum",
+      "answerStop3Body": "the story of Arabia from ancient times to the unification of the Kingdom, right next to the palace. About 1.5 hours.",
+      "answerOutro": "Times are estimates in this demo. Shall I turn this into a plan you can save?",
+      "followUp": "Yes please — and is there a café nearby to finish the visit?",
+      "previewReply": "This is a design preview, so I can't answer yet — in the Chat phase I'll reply with recommendations and a plan you can save. — {name}",
+      "resetDemo": "Reset the demo conversation",
+      "stopLabel": "Stop {n}: {name}",
+      "stops": {
+        "s1": "Masmak Fortress",
+        "s2": "Murabba Palace",
+        "s3": "National Museum",
+        "t1": "09:00 · 1 h",
+        "t2": "10:15 · 45 min",
+        "t3": "11:15 · 1 h 30 min"
+      },
+      "showChat": "Show chat",
+      "hideChat": "Hide chat",
+      "chatPanel": "Chat with {name}",
+      "mapAnswer": "Here's your half-day heritage route. Tap a stop to highlight it on the map.",
+      "history": "Conversation history",
+      "viewLabel": "View",
+      "chatTab": "Chat",
+      "mapTab": "Map",
+      "bottomNavPreview": "Bottom navigation (preview)",
+      "nav": {
+        "chat": "Chat",
+        "discover": "Discover",
+        "expo": "Expo 2030",
+        "plans": "My Plans",
+        "profile": "Profile"
+      }
+    },
+    "overlayPatterns": {
+      "title": "Popups & overlays",
+      "description": "Dialogs, confirmations, menus, popovers, the place card over the map and mobile bottom sheets — with consistent close and keyboard behavior.",
+      "modals": "Dialogs & menus",
+      "addToPlan": "Add to plan",
+      "pickPlanTitle": "Add Masmak Fortress to…",
+      "pickPlanDescription": "Choose one of your plans or start a new one.",
+      "cancel": "Cancel",
+      "add": "Add",
+      "addedToast": "Added to “Riyadh heritage day” (demo)",
+      "plans": {
+        "heritage": {
+          "name": "Riyadh heritage day",
+          "meta": "Sat · 4 stops"
+        },
+        "evening": {
+          "name": "Modern Riyadh evening",
+          "meta": "Sun · 3 stops"
+        },
+        "new": {
+          "name": "New plan",
+          "meta": "Start a new plan with this place"
+        }
+      },
+      "deleteConversationTitle": "Delete this conversation?",
+      "deleteConversationDescription": "“Riyadh heritage in half a day” will be removed from your history.",
+      "delete": "Delete",
+      "deletedToast": "Conversation deleted (demo)",
+      "cannotUndo": "This can't be undone. Plans you already saved from it stay in My Plans.",
+      "conversationMenu": "Conversation menu",
+      "conversationName": "Riyadh heritage in half a day",
+      "rename": "Rename",
+      "renameToast": "Rename is demonstrated in the Chat phase",
+      "userMenu": "Account menu",
+      "profile": "Profile",
+      "settings": "Settings",
+      "signOut": "Sign out",
+      "popovers": "Popovers",
+      "whyLabel": "Why this recommendation?",
+      "whyTitle": "Why Masmak Fortress?",
+      "whyBody": "You asked for historical places and have half a day. Masmak is where the story of modern Riyadh begins, and it's a short walk from the next stops.",
+      "whyDemoNote": "Demo explanation — not a real AI ranking.",
+      "notificationsLabel": "Notifications, {count} unread",
+      "notificationsTitle": "Notifications",
+      "markAllRead": "Mark all as read",
+      "unread": "Unread:",
+      "notifications": {
+        "n1": {
+          "title": "Your plan starts tomorrow",
+          "body": "Riyadh heritage day starts at 09:00 at Masmak Fortress.",
+          "time": "2 hours ago"
+        },
+        "n2": {
+          "title": "Roaya has new ideas",
+          "body": "3 AI pavilions match your interests (demo).",
+          "time": "Yesterday"
+        },
+        "n3": {
+          "title": "Welcome to Morshid",
+          "body": "Ask Arif or Roaya to plan your first visit.",
+          "time": "3 days ago"
+        }
+      },
+      "placeOverMap": "Place details over the map",
+      "placeOverMapNote": "Tap a numbered marker. On wide screens the card floats on the reading-end side; on narrow screens it docks at the bottom. Esc or ✕ closes it and returns focus to the marker.",
+      "stopLabel": "Stop {n}: {name}",
+      "places": {
+        "masmak": {
+          "name": "Masmak Fortress",
+          "category": "Heritage",
+          "area": "Al-Dirah, Riyadh",
+          "duration": "1 hour",
+          "summary": "A clay and mud-brick fortress in old Riyadh, best known as the site of King Abdulaziz's recapture of the city in 1902 — the start of the modern Saudi state.",
+          "h1": "The original wooden gate and its small entrance door",
+          "h2": "Watchtowers and the inner courtyard",
+          "h3": "Exhibits on the events of 1902",
+          "hours": "Daily 08:00 – 21:00"
+        },
+        "murabba": {
+          "name": "Murabba Palace",
+          "category": "Heritage",
+          "area": "King Abdulaziz Historical Center",
+          "duration": "45 minutes",
+          "summary": "The palace King Abdulaziz built in the 1930s outside the old city walls, used as his residence and the seat of government.",
+          "h1": "Traditional Najdi mud-brick architecture",
+          "h2": "Reception halls and decorated wooden ceilings",
+          "h3": "Royal belongings and historic vehicles",
+          "hours": "Sat – Thu 08:00 – 20:00"
+        },
+        "museum": {
+          "name": "National Museum",
+          "category": "Museums",
+          "area": "King Abdulaziz Historical Center",
+          "duration": "1 h 30 min",
+          "summary": "Saudi Arabia's main museum, telling the story of the Arabian Peninsula from prehistoric times to the unification of the Kingdom across themed galleries.",
+          "h1": "Ancient Arabian kingdoms",
+          "h2": "The Hajj and the Two Holy Mosques",
+          "h3": "The unification of the Kingdom",
+          "hours": "Sat – Thu 09:00 – 20:00"
+        }
+      },
+      "removeFromProposal": "Remove from proposal",
+      "removedToast": "Removed from the proposal (demo)",
+      "askArif": "Ask Arif",
+      "askToast": "Opens a chat with this place as context (Chat phase)",
+      "bottomSheet": "Mobile bottom sheets with fixed actions",
+      "openPlaceSheet": "Place details sheet",
+      "openProposalSheet": "Plan proposal sheet (redesigned) ↓",
+      "proposalSheetTitle": "Half-day heritage route",
+      "proposalSheetDescription": "3 stops · about 3 h 30 min · estimates",
+      "saveToPlans": "Save to My Plans",
+      "savedToast": "Saved to My Plans (demo)",
+      "remove": "Remove",
+      "keep": "Keep",
+      "bottomSheetNote": "On phones, place details and plan proposals open as bottom sheets. The main actions stay fixed at the bottom while the content scrolls. On larger screens the sheet is centered.",
+      "behaviour": "Close & keyboard behavior (all overlays)",
+      "rules": {
+        "b1": "Esc closes any dialog, sheet, menu, popover or place card.",
+        "b2": "Focus moves into the overlay when it opens and returns to the control that opened it when it closes.",
+        "b3": "Dialogs and sheets keep focus inside until they close.",
+        "b4": "Clicking outside closes menus, popovers and sheets; delete confirmations close only through their buttons or Esc.",
+        "b5": "Every overlay has a visible ✕ or Cancel, labelled for screen readers.",
+        "b6": "Overlays never exceed the screen: dialogs scroll inside, sheets stop at 90% height.",
+        "b7": "Bottom sheets keep their main actions in a fixed footer above the phone's safe area.",
+        "b8": "Sides follow reading direction: “start” panels open from the right in Arabic and from the left in English."
+      }
+    }
+  },
+  "placeSummary": {
+    "close": "Close",
+    "openFull": "Open full details",
+    "notFoundTitle": "Place not found",
+    "notFoundDescription": "This place isn't in the guide (anymore).",
+    "duration": "Suggested visit: {duration}",
+    "location": "Location",
+    "bestTime": "Best time",
+    "bestTimeValue": "Best time: {time}",
+    "hours": "Opening hours",
+    "hoursDemo": "Demo — verify before visiting",
+    "activity": "Activity",
+    "demoTime": "{time} (demo time)",
+    "tips": "Visitor tips"
+  },
+  "plansPage": {
+    "title": "My Plans",
+    "subtitle": "Your itineraries — create, edit, follow on the map and track your progress.",
+    "newPlan": "New plan",
+    "listTitle": "Your plans",
+    "tabsLabel": "Plan status",
+    "tabs": {
+      "all": "All",
+      "upcoming": "Upcoming",
+      "in_progress": "In progress",
+      "completed": "Completed",
+      "drafts": "Drafts"
+    },
+    "search": "Search plans",
+    "noResults": "No plans match your search",
+    "clearSearch": "Clear search",
+    "empty": {
+      "all": "No plans yet",
+      "upcoming": "No upcoming plans",
+      "in_progress": "Nothing in progress",
+      "completed": "No completed plans yet",
+      "drafts": "No drafts"
+    },
+    "emptyHint": "Create a plan, copy a featured one, or ask Arif or Roaya for an itinerary.",
+    "noDate": "No date yet",
+    "status": {
+      "draft": "Draft",
+      "upcoming": "Upcoming",
+      "in_progress": "In progress",
+      "completed": "Completed"
+    },
+    "progressShort": "{completed}/{total}",
+    "actionsFor": "Actions for {name}",
+    "open": "Open",
+    "edit": "Edit",
+    "delete": "Delete",
+    "type": {
+      "tourism": "Tourism",
+      "expo": "Expo 2030"
+    },
+    "stopsCount": "{count, plural, one {# stop} other {# stops}}",
+    "featuredTitle": "Featured plans",
+    "copy": "Copy to my plans",
+    "askCharacter": "Ask {name} for a plan",
+    "to": "to",
+    "moreStops": "+{count}"
+  },
+  "managePlan": {
+    "errorToast": "Something went wrong. Please try again.",
+    "deletedToast": "Plan deleted",
+    "copiedToast": "“{name}” copied — add a date when you’re ready",
+    "completedToast": "“{name}” marked as done",
+    "undo": "Undo",
+    "deleteTitle": "Delete this plan?",
+    "deleteDescription": "“{name}” and its stops will be deleted. This can’t be undone.",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "replace": {
+      "title": "Replace “{name}”",
+      "description": "Pick another stop for this step. The rest of your itinerary stays as it is.",
+      "cancel": "Cancel",
+      "confirm": "Replace stop",
+      "demoNote": "Suggestions come from the demo guide by category and location — not an AI request.",
+      "none": "No suitable alternatives in the demo guide.",
+      "chooseLabel": "Alternatives",
+      "doneToast": "“{from}” replaced with “{to}”",
+      "undo": "Undo",
+      "reasons": {
+        "sameCategory": "Same category",
+        "similar": "Similar experience",
+        "nearby": "Close by",
+        "sameRegion": "Same region",
+        "sameZone": "Same zone"
+      }
+    }
+  },
+  "planEditor": {
+    "newTitle": "New plan",
+    "editTitle": "Edit plan",
+    "backToPlans": "My Plans",
+    "backToPlan": "Back to the plan",
+    "notFound": "Plan not found",
+    "savedToast": "“{name}” saved",
+    "errorToast": "Couldn’t save the plan. Please try again.",
+    "name": "Plan name",
+    "type": "Type",
+    "types": {
+      "tourism": "Tourism",
+      "expo": "Expo 2030"
+    },
+    "typeLocked": "Remove the stops first to change the type — tourism and Expo stops are never mixed.",
+    "typeLockedHint": "Type is fixed while the plan has stops",
+    "date": "Date",
+    "startTime": "Start time",
+    "stops": "Stops",
+    "summary": "{count, plural, =0 {No stops} one {# stop} other {# stops}} · {duration}",
+    "noStops": "No stops yet — add places below.",
+    "unknownStop": "Stop no longer in the guide",
+    "dragHandle": "Reorder {name} (drag, or use Space then the arrow keys)",
+    "done": "Done",
+    "duration": "Minutes",
+    "stopTime": "Fixed time (optional)",
+    "moveUp": "Move {name} earlier",
+    "moveDown": "Move {name} later",
+    "remove": "Remove {name}",
+    "addPlace": "Add places",
+    "addBooth": "Add Expo pavilions (illustrative demo layout)",
+    "searchPlaceholder": "Search by name…",
+    "searchResults": "Search results",
+    "add": "Add",
+    "added": "Added",
+    "generateWith": "Generate with {name}",
+    "signInRequired": "Sign in to create plans.",
+    "limitReached": "You’ve reached your plan’s saved-plan limit (see Subscription & credits).",
+    "cancel": "Cancel",
+    "saveDraft": "Save draft",
+    "save": "Save",
+    "errors": {
+      "nameRequired": "Give the plan a name.",
+      "nameTooLong": "Use 80 characters or fewer.",
+      "dateInvalid": "Enter a valid date.",
+      "timeInvalid": "Enter a valid time (HH:mm).",
+      "durationInvalid": "Enter the minutes as a number.",
+      "durationMin": "At least 5 minutes.",
+      "durationMax": "At most 12 hours.",
+      "tooManyStops": "A plan can have up to 20 stops.",
+      "mixedTypes": "Tourism places and Expo pavilions can’t be mixed in one plan.",
+      "stopsRequired": "Add at least one stop to save (or save as a draft)."
+    },
+    "newSubtitle": "Name your plan, pick the type and date, then add stops in the order you want to visit them.",
+    "editSubtitle": "Change the details, reorder stops or adjust their times.",
+    "sections": {
+      "details": "Plan details",
+      "detailsHint": "A name, the type of trip, and when it starts.",
+      "stopsHint": "Add places, then drag or use the arrows to set the order.",
+      "saveHint": "Save a draft to finish later, or save to make the plan ready to start."
+    }
+  },
+  "planDetails": {
+    "backToPlans": "My Plans",
+    "notFoundTitle": "Plan not found",
+    "notFoundDescription": "It may have been deleted.",
+    "unknownStop": "Stop no longer in the guide",
+    "startDescription": "Where the plan starts.",
+    "totalDuration": "Visits: {duration}",
+    "startPlan": "Start plan",
+    "continuePlan": "Continue plan",
+    "finishDraft": "Finish the draft",
+    "edit": "Edit",
+    "delete": "Delete",
+    "removedToast": "“{name}” removed from the plan",
+    "undo": "Undo",
+    "adviceTitle": "Before you go",
+    "advice": {
+      "draft": "This is a draft — add a date and save it to start the plan.",
+      "noDate": "No date yet — add one so the plan shows as upcoming.",
+      "longDay": "That’s about {hours} hours of visits — consider splitting it over two days.",
+      "hours": "Stop {number}, {name}: {hours} (demo hours — verify before visiting).",
+      "midday": "Stop {number}, {name}, is outdoors around {time} — plan shade and water.",
+      "expo": "Expo locations come from an illustrative demo layout, not the official site plan.",
+      "overdue": "{count, plural, one {# stop is} other {# stops are}} past their planned time."
+    },
+    "itinerary": "Itinerary",
+    "viewLabel": "View",
+    "viewList": "List",
+    "viewMap": "Map",
+    "noStopsTitle": "No stops yet",
+    "noStopsDescription": "Add places to build your itinerary.",
+    "addStops": "Add stops",
+    "mapLabel": "Map of the plan",
+    "startLabel": "Start",
+    "endLabel": "End",
+    "stopNumber": "Stop {number}",
+    "status": {
+      "upcoming": "upcoming",
+      "current": "current stop",
+      "completed": "done",
+      "overdue": "past its planned time"
+    },
+    "guidedIntro": "{name} will guide you through {count, plural, one {# stop} other {# stops}}, one step at a time."
+  },
+  "guided": {
+    "notFound": "Plan not found",
+    "backToPlans": "My Plans",
+    "draftTitle": "This plan is still a draft",
+    "draftDescription": "Add a date and save it before starting guided mode.",
+    "finishDraft": "Finish the draft",
+    "exit": "Exit",
+    "allStops": "All stops",
+    "position": "Stop {position} of {total}",
+    "allDone": "All stops done",
+    "progressLabel": "{completed} of {total} done",
+    "currentStop": "Current stop",
+    "finalStop": "Final stop",
+    "stayFor": "Stay about {duration}",
+    "overdue": "Past its planned time",
+    "tips": "Tips",
+    "googleMaps": "Directions in Google Maps",
+    "showMap": "Show route",
+    "hideMap": "Hide route",
+    "expoNote": "Expo locations are from an illustrative demo layout — no directions.",
+    "skip": "Skip",
+    "markDone": "Mark as done",
+    "arrived": "I've arrived",
+    "manualNote": "You mark stops as done yourself — MORSHID doesn’t track your location.",
+    "completedTitle": "Plan completed!",
+    "completedDescription": "You finished “{name}”. It’s now in your completed plans.",
+    "toCompleted": "See completed plans",
+    "viewPlan": "View the plan",
+    "openPlan": "Open the full plan"
+  },
+  "expoPage": {
+    "title": "Expo 2030 Riyadh",
+    "subtitle": "Explore the four themed districts — Earth, Collaboration, Technology and Humanity — with their pavilions and visitor facilities on an interactive plan, then add pavilions to an Expo plan or ask Roaya about them.",
+    "disclaimer": "Illustrative demo layout with fictional zones, pavilions and times — not the official Expo 2030 Riyadh site plan or programme.",
+    "mapTitle": "Site plan",
+    "pavilionsTitle": "Pavilions",
+    "search": "Search pavilions",
+    "categoriesLabel": "Pavilion categories",
+    "count": "{count, plural, =0 {No pavilions} one {# pavilion} other {# pavilions}}",
+    "empty": "No pavilions match",
+    "clear": "Clear search and filters",
+    "assistant": {
+      "title": "Plan your Expo visit with {name}",
+      "demo": "Demo replies",
+      "body": "Tell {name} what interests you. Ask about zones and pavilions, then review a suggested visit plan and save it to My Plans.",
+      "step1": "Share your interests",
+      "step2": "Ask about zones and pavilions",
+      "step3": "Review and save a plan",
+      "plan": "Draft a visit plan",
+      "planPrompt": "Plan my Expo visit",
+      "start": "Chat with {name}",
+      "interestsLabel": "Start with an interest",
+      "topics": {
+        "tech": "I'm interested in AI and technology",
+        "culture": "Show me culture and arts pavilions",
+        "green": "What's there about sustainability?",
+        "shows": "What shows and family events are there?",
+        "stage": "Tell me about the Main Stage"
+      },
+      "dockLabel": "Expo assistant",
+      "dockContext": "About: Expo 2030 (illustrative layout)",
+      "intro": "Hi! I'm {name}. What interests you most at Expo? Ask about zones and pavilions, or let me draft a visit plan you can review and save."
+    }
+  },
+  "boothDetails": {
+    "backToExpo": "Expo 2030",
+    "notFoundTitle": "Pavilion not found",
+    "notFoundDescription": "It isn’t in the illustrative demo layout.",
+    "duration": "Suggested visit",
+    "number": "Number",
+    "category": "Category",
+    "showOnMap": "Show on the site plan",
+    "tabsLabel": "Pavilion information",
+    "tabs": {
+      "activities": "Activities & sessions",
+      "description": "Description",
+      "location": "Location"
+    },
+    "demoTime": "demo time",
+    "mapLabel": "Location of {name} (illustrative)",
+    "locationNote": "Positions are illustrative — there are no indoor directions.",
+    "askTitle": "Questions about this pavilion? Ask {name}",
+    "askBody": "Find out what happens at {name}, or get a visit plan you can review and save.",
+    "zone": "Zone",
+    "demoNote": "Illustrative demo pavilion — names, positions and times are not from the official Expo 2030 programme."
+  },
+  "auth": {
+    "titles": {
+      "login": "Sign in",
+      "signup": "Create an account",
+      "forgot": "Forgot your password?",
+      "reset": "Choose a new password"
+    },
+    "subtitles": {
+      "login": "Save plans, keep your conversations and manage your settings.",
+      "signup": "It only takes a minute — this is a demo account stored in your browser.",
+      "forgot": "Enter your email and we'll explain the next step.",
+      "reset": "Use at least 8 characters."
+    },
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirm": "Confirm password"
+    },
+    "forgotLink": "Forgot password?",
+    "submit": {
+      "login": "Sign in",
+      "signup": "Create account",
+      "forgot": "Send reset link",
+      "reset": "Save new password"
+    },
+    "useDemo": "Use the demo account",
+    "demoNote": "Demo sign-in — not production security. Any valid email with 8+ characters works; nothing leaves this browser.",
+    "forgotDoneTitle": "Check the next step",
+    "forgotDoneBody": "In this demo no email is sent. You can continue to the reset screen directly.",
+    "resetDoneTitle": "Password updated (demo)",
+    "resetDoneBody": "Nothing was stored — sign in with any password of 8+ characters.",
+    "toReset": "Go to reset password",
+    "toLogin": "Sign in",
+    "sheetTitle": "Sign in to continue",
+    "sheetDescription": "Your action will complete right after you sign in.",
+    "noAccount": "No account yet?",
+    "toSignup": "Create one",
+    "haveAccount": "Already have an account?",
+    "continueAsGuest": "Continue as a guest",
+    "errors": {
+      "emailRequired": "Enter your email.",
+      "emailInvalid": "Enter a valid email address.",
+      "passwordRequired": "Enter your password.",
+      "passwordShort": "Use at least 8 characters.",
+      "passwordLong": "Use 128 characters or fewer.",
+      "passwordsDiffer": "The passwords don’t match.",
+      "passwordSame": "Choose a different password.",
+      "nameShort": "Enter at least 2 characters.",
+      "nameLong": "Use 60 characters or fewer.",
+      "loginFailed": "That email and password didn’t work. Use 8+ characters.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "gateway": {
+      "title": "Welcome to MORSHID",
+      "subtitle": "Try the demo instantly, or sign in with a demo account.",
+      "tryTitle": "Try MORSHID now",
+      "tryBody": "No email or password needed.",
+      "tryCta": "Enter the demo",
+      "tryNote": "Opens a sample traveller profile with example plans. No account is created.",
+      "guestCta": "Continue as a guest",
+      "guestNote": "No profile: browse, chat and plan — saving asks you to sign in.",
+      "signedInAs": "This browser is using the demo profile “{name}”.",
+      "continue": "Continue to MORSHID",
+      "switchToGuest": "Switch to guest mode",
+      "error": "That didn't work. Please try again.",
+      "or": "or",
+      "demoBadge": "Demo",
+      "backHome": "Home",
+      "panelTitle": "Your guide to Riyadh, Saudi Arabia and Expo 2030.",
+      "panelBody": "Chat with Arif and Roaya, discover places on a real map and turn ideas into plans — in Arabic or English.",
+      "preferDemo": "Prefer not to create an account? Try the demo",
+      "privacy": "Privacy (draft)",
+      "terms": "Terms (draft)"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Reminders, plan updates, ideas and news.",
+    "preferences": "Preferences",
+    "filterLabel": "Show",
+    "filterAll": "All",
+    "filterUnread": "Unread ({count})",
+    "markAllRead": "Mark all as read",
+    "viewAll": "View all notifications",
+    "labelUnread": "Notifications, {count} unread",
+    "unread": "Unread",
+    "emptyTitle": "You're all caught up",
+    "emptyBody": "New reminders and plan updates will appear here.",
+    "demoNote": "Demo notifications generated in the app — no push or email.",
+    "kinds": {
+      "reminder": "Itinerary reminders",
+      "plan_update": "Plan updates",
+      "recommendation": "Recommendations",
+      "announcement": "Announcements"
+    }
+  },
+  "chatDock": {
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "close": "Close chat",
+    "openInChat": "Open in Chat",
+    "suggestionsLabel": "Suggested questions",
+    "booth": {
+      "label": "Chat about {name}",
+      "context": "About: {name}",
+      "intro": "{character} can tell you about {name} from the illustrative demo layout. Try one of these:",
+      "suggestions": {
+        "what": "What happens at {name}?",
+        "when": "When should I visit {name}?",
+        "plan": "Plan my Expo visit including {name}"
+      }
+    }
+  },
+  "planSteps": {
+    "label": "Itinerary steps",
+    "stepOf": "Step {n}",
+    "factsLabel": "Key facts",
+    "viewDetails": "View details",
+    "hideDetails": "Hide details",
+    "ask": "Ask {name}",
+    "askShort": "Ask about it",
+    "replace": "Replace",
+    "markDone": "Mark as done",
+    "undoDone": "Undo",
+    "arrived": "I've arrived",
+    "undoArrived": "Undo arrival",
+    "moreFor": "More actions for {name}",
+    "showOnMap": "Show on map",
+    "setCurrent": "Set as current stop",
+    "remove": "Remove from plan",
+    "visitDuration": "Visit duration",
+    "familyShort": "Family-friendly",
+    "category": "Category",
+    "noDetails": "This stop is no longer in the guide.",
+    "history": "Historical context",
+    "about": "About this stop",
+    "lookFor": "What to look for",
+    "activities": "Activities & sessions",
+    "demoTime": "demo time",
+    "visitInfo": "Visitor information",
+    "hours": "Opening hours",
+    "hoursDemo": "Demo hours",
+    "practical": "Practical advice",
+    "advice": {
+      "indoor": "Indoors — a good choice for the hottest part of the day.",
+      "outdoor": "Mostly outdoors — bring water and plan for shade.",
+      "verifyHours": "The hours shown are demo data — check them before you go.",
+      "beyondRiyadh": "Outside Riyadh — allow for travel time and any advance booking.",
+      "expoLayout": "Positions come from the illustrative demo layout — there are no indoor directions."
+    }
+  },
+  "site": {
+    "brand": "MORSHID",
+    "brandHome": "MORSHID home",
+    "skipToContent": "Skip to content",
+    "photoCredit": "Photo:",
+    "sampleScreen": "Sample screen (illustration)",
+    "nav": {
+      "label": "Main",
+      "menu": "Menu",
+      "home": "Home",
+      "destinations": "Destinations",
+      "features": "Features",
+      "howItWorks": "How it works",
+      "guides": "Arif & Roaya",
+      "journal": "Journal",
+      "mobileApp": "Mobile app",
+      "appearance": "Appearance"
+    },
+    "cta": {
+      "tryDemo": "Try the demo",
+      "openApp": "Open MORSHID"
+    },
+    "footer": {
+      "about": "MORSHID is your AI travel companion for Riyadh, Saudi Arabia and Expo 2030 — in Arabic and English, planned around you.",
+      "demo": "Demo version: assistant replies, accounts, notifications and the Expo layout are simulated. Your data stays in this browser.",
+      "label": "Footer",
+      "independent": "MORSHID is an independent demo with no official link to Expo 2030 Riyadh or any government or tourism authority.",
+      "credits": "Photos: Wikimedia Commons contributors under free licences, credited with each photo.",
+      "columns": {
+        "explore": "Explore",
+        "read": "Read",
+        "platform": "Platform",
+        "legal": "Legal (drafts)"
+      },
+      "links": {
+        "home": "Home",
+        "destinations": "Destinations",
+        "features": "Features",
+        "howItWorks": "How it works",
+        "guides": "Meet the guides",
+        "journal": "Travel Journal",
+        "mobileApp": "Mobile app",
+        "openApp": "Open MORSHID",
+        "discover": "Discover",
+        "expo": "Expo 2030 preview",
+        "plans": "My Plans",
+        "signIn": "Sign in or try the demo",
+        "privacy": "Privacy policy",
+        "terms": "Terms of use"
+      },
+      "welcome": "Ahlan wa sahlan — you are welcome here."
+    },
+    "status": {
+      "live": {
+        "label": "Works in the demo",
+        "body": "Real functionality you can use today (your data stays in this browser)."
+      },
+      "simulated": {
+        "label": "Simulated",
+        "body": "Works in the demo with prepared replies or illustrative data — not a live service."
+      },
+      "planned": {
+        "label": "Planned",
+        "body": "Not built yet. Described as an intention, subject to change."
+      }
+    },
+    "mockups": {
+      "chat": {
+        "online": "Demo",
+        "question": "Plan a calm heritage morning",
+        "answer": "Let's start early in old Riyadh — it's cooler and quieter.",
+        "proposal": "Itinerary proposal",
+        "stops": {
+          "s1": "Masmak Fortress",
+          "s2": "Murabba Palace",
+          "s3": "National Museum"
+        },
+        "placeholder": "Ask Arif…"
+      },
+      "discover": {
+        "title": "Discover",
+        "search": "Search places",
+        "chips": {
+          "heritage": "Heritage",
+          "nature": "Nature",
+          "culture": "Culture"
+        },
+        "card1": "Masmak Fortress",
+        "card1Meta": "Al-Dirah · Riyadh",
+        "card2": "At-Turaif",
+        "card2Meta": "Diriyah"
+      },
+      "plan": {
+        "title": "Heritage morning",
+        "meta": "4 stops",
+        "stops": {
+          "s1": "Masmak Fortress",
+          "s2": "Souq Al-Zal",
+          "s3": "Murabba Palace",
+          "s4": "At-Turaif"
+        }
+      }
+    },
+    "itineraryDemo": {
+      "sample": "Sample conversation",
+      "replay": "Replay",
+      "prompt": "Something calm and historic for my first morning — not too much walking.",
+      "thinking": "Arif is thinking",
+      "answer": "Old Riyadh is perfect for that: three places close together, best before midday.",
+      "stops": {
+        "s1": "Masmak Fortress",
+        "s2": "Murabba Palace",
+        "s3": "National Museum"
+      },
+      "planTitle": "Proposed plan — review before saving",
+      "planMeta": "Sample times",
+      "durations": {
+        "s1": "1 h",
+        "s2": "1 h",
+        "s3": "1 h 30 min"
+      },
+      "review": "You keep, remove or reorder stops before anything is saved.",
+      "expo": {
+        "prompt": "Half a day at the Expo: AI first, something cultural, and a calm finish outdoors.",
+        "thinking": "Roaya is thinking",
+        "answer": "Three pavilions in neighbouring districts, with short walks between them:",
+        "stops": {
+          "s1": "AI Experience Hall",
+          "s2": "House of Arabic Calligraphy",
+          "s3": "Living Desert Garden"
+        },
+        "durations": {
+          "s1": "1 h",
+          "s2": "45 min",
+          "s3": "30 min"
+        }
+      }
+    },
+    "meta": {
+      "home": {
+        "title": "MORSHID — your AI companion for Expo 2030 Riyadh",
+        "description": "Explore an illustrative Expo 2030 Riyadh site map, find pavilions by interest and plan your visit with Arif and Roaya — plus Riyadh and Saudi destinations, in Arabic and English."
+      },
+      "features": {
+        "title": "Features",
+        "description": "What MORSHID can do today — chat, destinations, maps, Expo preview and plans — and what is simulated or planned."
+      },
+      "destinations": {
+        "title": "Destinations",
+        "description": "Riyadh, Saudi Arabia, heritage, nature, landmarks and the Expo 2030 Riyadh preview — with real locations and licensed photos."
+      },
+      "howItWorks": {
+        "title": "How it works",
+        "description": "From telling MORSHID what you like to managing your day stop by stop — in five steps."
+      },
+      "guides": {
+        "title": "Meet your guides",
+        "description": "Arif, the heritage storyteller, and Roaya, the calm planner — MORSHID's two AI travel companions."
+      },
+      "journal": {
+        "title": "Travel Journal",
+        "description": "Stories and practical guides about Riyadh, Saudi heritage, travel in Saudi Arabia and preparing for Expo 2030."
+      },
+      "mobileApp": {
+        "title": "Mobile app — coming soon",
+        "description": "The MORSHID mobile app is in the works. Until then, MORSHID runs in your phone's browser."
+      },
+      "privacy": {
+        "title": "Privacy policy (draft)",
+        "description": "How the MORSHID demo handles information — a draft pending legal review."
+      },
+      "terms": {
+        "title": "Terms of use (draft)",
+        "description": "Terms for using the MORSHID demo — a draft pending legal review."
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Expo 2030 Riyadh",
+        "line1": "Your guide to",
+        "line2": "Expo 2030",
+        "line3": "Riyadh.",
+        "intro": "Explore the four districts, find the pavilions that match your interests and plan your visit with Roaya and Arif — in Arabic or English.",
+        "ctaMap": "Explore the Expo map",
+        "ctaPlan": "Plan my visit with Roaya",
+        "ctaDiscover": "Or discover Riyadh and Saudi Arabia",
+        "datesLabel": "Scheduled dates",
+        "dates": "1 Oct 2030 – 31 Mar 2031",
+        "themeLabel": "Theme",
+        "theme": "The Era of Change: Together for a Foresighted Tomorrow",
+        "source": "Source: Bureau International des Expositions (BIE). Check official channels for updates.",
+        "note": "A preview built today: the districts, pavilions and times in MORSHID are illustrative, the images are concept renderings, and MORSHID has no official link to Expo 2030 Riyadh.",
+        "imageCaption": "Concept rendering of the future site at night — not a photograph and not the official plan.",
+        "bubbleAuthor": "Roaya",
+        "bubbleLabel": "Sample message",
+        "bubble": "Tell me what you love and how much time you have — I'll arrange the pavilions into a day that flows."
+      },
+      "zones": {
+        "eyebrow": "Four districts",
+        "title": "One Expo, four worlds to explore.",
+        "intro": "MORSHID organises the preview into four themed districts around a central plaza, so you can head straight for what interests you.",
+        "note": "The districts, their boundaries and the pavilions in them are MORSHID's illustrative demo — not the official Expo 2030 Riyadh plan.",
+        "plaza": {
+          "title": "And at the centre: the plaza",
+          "body": "The main stage, the gate and visitor services — the place to meet up between districts."
+        }
+      },
+      "map": {
+        "eyebrow": "The interactive map",
+        "title": "See the whole site before you arrive.",
+        "intro": "Pan and zoom across the illustrative site plan, pick a district to bring it into focus, and open any numbered pavilion for its details and suggested visit time.",
+        "points": {
+          "pan": {
+            "title": "Move freely",
+            "body": "Pan, zoom and return to the whole site in one tap."
+          },
+          "zone": {
+            "title": "Focus on a district",
+            "body": "The camera frames it and the rest of the site steps back."
+          },
+          "pavilion": {
+            "title": "Open a pavilion",
+            "body": "What's inside, an activity time and how long to allow."
+          }
+        },
+        "cta": "Open the full-screen map",
+        "note": "Illustrative layout — no official booth locations, routes or live information."
+      },
+      "guides": {
+        "eyebrow": "Your Expo companions",
+        "title": "Two companions for your day at the Expo.",
+        "intro": "Roaya plans, Arif tells the stories — and you can switch between them whenever you like.",
+        "link": "Get to know them",
+        "roaya": {
+          "kicker": "The calm planner",
+          "line": "Roaya turns your interests into an Expo day that flows.",
+          "body": "Pavilions grouped by district, activity times, breaks at the plaza and a pace that suits who is with you."
+        },
+        "arif": {
+          "kicker": "The storyteller",
+          "line": "Arif tells you the story behind what you see.",
+          "body": "The ideas behind each district — and Riyadh's heritage for the days around your visit."
+        },
+        "chatWith": "Talk to {name}"
+      },
+      "help": {
+        "eyebrow": "How MORSHID helps",
+        "title": "From first curiosity to a visit you can follow.",
+        "intro": "Say what you love. MORSHID does the finding and the arranging — and you keep the final word.",
+        "steps": {
+          "discover": {
+            "title": "Discover pavilions",
+            "body": "Search by interest — AI, culture, sustainability, family — and see why each one fits."
+          },
+          "themes": {
+            "title": "Explore the themes",
+            "body": "Read each district on the map and see what sits next to what."
+          },
+          "organise": {
+            "title": "Organise your visit",
+            "body": "A timed plan with short walking buffers that you review, reorder and save."
+          }
+        },
+        "cta": "Plan my Expo visit",
+        "link": "How MORSHID works"
+      },
+      "beyond": {
+        "eyebrow": "Beyond the Expo",
+        "title": "Riyadh and the Kingdom, for the days around your visit.",
+        "intro": "Before or after the Expo, MORSHID's tourism guide covers verified places across Riyadh and Saudi Arabia.",
+        "link": "Explore destinations",
+        "items": {
+          "turaif": {
+            "region": "Diriyah",
+            "title": "At-Turaif"
+          },
+          "masmak": {
+            "region": "Riyadh",
+            "title": "Masmak Fortress"
+          },
+          "kafd": {
+            "region": "Riyadh",
+            "title": "King Abdullah Financial District"
+          },
+          "alula": {
+            "region": "AlUla",
+            "title": "Elephant Rock"
+          },
+          "asir": {
+            "region": "Asir",
+            "title": "Rijal Almaa"
+          },
+          "ahsa": {
+            "region": "Al-Ahsa",
+            "title": "Al-Qarah Mountain"
+          }
+        }
+      },
+      "mobile": {
+        "badge": "Coming soon",
+        "title": "MORSHID on your phone, coming soon.",
+        "body": "A dedicated mobile app is in the works. Until it's ready, MORSHID runs in your phone's browser — chat, maps and plans included.",
+        "noStores": "Not on the App Store or Google Play yet, and no release date has been announced.",
+        "link": "About the mobile app"
+      },
+      "journal": {
+        "eyebrow": "Travel Journal",
+        "title": "Read before you go.",
+        "link": "All stories"
+      },
+      "final": {
+        "title": "Your Expo visit starts with one question.",
+        "body": "No sign-up, no setup: open MORSHID, choose Roaya or Arif and ask about the Expo — or about Riyadh.",
+        "primary": "Plan my Expo visit",
+        "secondary": "Sign in or try the demo"
+      }
+    },
+    "features": {
+      "hero": {
+        "eyebrow": "Features",
+        "line1": "Everything MORSHID can do —",
+        "line2": "stated plainly.",
+        "intro": "Eight chapters, each with a small demonstration and a clear status: what works in the demo, what is simulated, and what is still planned."
+      },
+      "chaptersLabel": "Feature chapters",
+      "chapters": {
+        "chat": "Chat",
+        "discover": "Discover",
+        "expo": "Expo map",
+        "itineraries": "Itineraries",
+        "plans": "Plans",
+        "maps": "Maps",
+        "languages": "Languages",
+        "journey": "Before · during · after"
+      },
+      "final": {
+        "title": "See it for yourself.",
+        "body": "Everything above is one click away in the demo — no account needed.",
+        "primary": "Open MORSHID",
+        "secondary": "How it works"
+      },
+      "chat": {
+        "title": "Chat with Arif and Roaya",
+        "body": "Ask for ideas, the story behind a place or a plan for your day. Replies come as text, place cards and itinerary proposals you can save.",
+        "honesty": "In this demo the replies are prepared from MORSHID's guide data — they are not generated by a live AI service yet.",
+        "cta": "Chat with {name}",
+        "pickCompanion": "Choose a companion",
+        "sampleLabel": "Sample replies",
+        "pickQuestion": "Pick a question below to see a sample reply.",
+        "voiceNote": "Voice uses your browser's own speech features; the answers are demo text.",
+        "samples": {
+          "arif": {
+            "q1": {
+              "q": "Why is Masmak Fortress important?",
+              "a": "Because of 1902: King Abdulaziz's recapture of Riyadh began here — the start of the modern Saudi state. Look closely at the heavy wooden gate."
+            },
+            "q2": {
+              "q": "What should I see in Diriyah?",
+              "a": "Walk At-Turaif, the mud-brick heart of the first Saudi state, then rest at Al-Bujairi across Wadi Hanifah."
+            },
+            "q3": {
+              "q": "Where can I go beyond Riyadh?",
+              "a": "AlUla for Hegra and Elephant Rock, Asir for Rijal Almaa, Al-Ahsa for its oasis, and Jeddah for the old town."
+            }
+          },
+          "roaya": {
+            "q1": {
+              "q": "Plan a relaxed family afternoon.",
+              "a": "A gentle pace: the National Museum first, then Salam Park when it cools down. Want me to make it a plan?"
+            },
+            "q2": {
+              "q": "How would I plan an Expo visit?",
+              "a": "Pick your interests and how long you have; I'll suggest pavilions in the illustrative preview and a route between them."
+            },
+            "q3": {
+              "q": "Show me modern Riyadh.",
+              "a": "Kingdom Centre and the King Abdullah Financial District — best seen in the late afternoon light."
+            }
+          }
+        }
+      },
+      "discover": {
+        "title": "Discover destinations",
+        "body": "Browse Riyadh and the rest of the Kingdom by category, region, visit length and family-friendliness — on a list or a map.",
+        "filterLabel": "Filter the photos",
+        "filters": {
+          "all": "All",
+          "heritage": "Heritage",
+          "nature": "Nature",
+          "modern": "Modern"
+        },
+        "bullets": {
+          "b1": "Locations checked against OpenStreetMap, with their source recorded.",
+          "b2": "Free-licensed photos credited with author and licence.",
+          "b3": "Arabic-aware search: spelling variants still match."
+        },
+        "count": "{count, plural, one {# destination} other {# destinations}} in the guide today",
+        "cta": "Open Discover"
+      },
+      "expo": {
+        "title": "Explore the Expo 2030 preview map",
+        "body": "Four themed districts — Earth, Collaboration, Technology and Humanity — around a central plaza, with numbered pavilions and visitor services, and Roaya to plan a route between them.",
+        "disclaimer": "The layout, pavilions and times are an illustrative demo — not the official Expo 2030 Riyadh site plan or programme.",
+        "cta": "Open the Expo preview",
+        "ctaChat": "Expo Map in chat",
+        "mapLabel": "Illustrative Expo site plan"
+      },
+      "itineraries": {
+        "title": "Generate a personalised itinerary",
+        "body": "Describe the day you want. Your guide proposes stops, order and times — and you decide what stays.",
+        "steps": {
+          "s1": "Tell Arif or Roaya what you like and how much time you have.",
+          "s2": "Review the proposal: remove, reorder or swap stops.",
+          "s3": "Save it to My Plans — nothing is saved without you."
+        },
+        "note": "Proposals are built from the guide data in this demo.",
+        "cta": "Ask for a plan"
+      },
+      "plans": {
+        "title": "Organise and manage your plans",
+        "body": "Every plan lives in My Plans: tourism days and Expo visits, created by you or proposed by your guide.",
+        "tools": {
+          "edit": {
+            "title": "Adjust times",
+            "body": "Change start times and how long you stay."
+          },
+          "reorder": {
+            "title": "Reorder stops",
+            "body": "Drag stops into the order that suits you."
+          },
+          "guided": {
+            "title": "Guided mode",
+            "body": "One stop at a time, with what to see next."
+          },
+          "done": {
+            "title": "Mark progress yourself",
+            "body": "MORSHID never assumes you've arrived."
+          }
+        },
+        "cta": "Open My Plans",
+        "ctaNew": "Create a plan",
+        "mockLabel": "Sample plan screen (illustration)"
+      },
+      "maps": {
+        "title": "Explore places on interactive maps",
+        "body": "Real locations for every destination. Select a pin to preview the place, then open its details.",
+        "mapLabel": "Map of MORSHID destinations",
+        "open": "View details",
+        "hint": "Select a pin on the map",
+        "cta": "Search on the map",
+        "ctaChat": "Explore Map in chat"
+      },
+      "languages": {
+        "title": "Arabic and English — designed, not just translated",
+        "body": "Layouts are composed for right-to-left Arabic and left-to-right English, with typography tuned for each script. Switching keeps your page, filters and conversation.",
+        "more": "Built so more languages can be added later."
+      },
+      "journey": {
+        "title": "Before, during and after your visit",
+        "body": "What MORSHID offers at each moment of a trip — and the status of each part.",
+        "phases": {
+          "before": "Before",
+          "during": "During",
+          "after": "After"
+        },
+        "items": {
+          "journal": {
+            "title": "Travel Journal",
+            "body": "Sample stories and practical guides."
+          },
+          "plan": {
+            "title": "Shape a plan",
+            "body": "Build it yourself or ask your guide."
+          },
+          "expoPreview": {
+            "title": "Expo preview",
+            "body": "An illustrative site plan to rehearse a visit."
+          },
+          "guided": {
+            "title": "Guided mode",
+            "body": "Follow your plan one stop at a time."
+          },
+          "locate": {
+            "title": "“Where am I?”",
+            "body": "Shows your position once, only when you ask."
+          },
+          "directions": {
+            "title": "Directions",
+            "body": "Opens the route in Google Maps when you choose."
+          },
+          "voice": {
+            "title": "Voice",
+            "body": "Your browser's speech; demo answers."
+          },
+          "keep": {
+            "title": "Keep your plans",
+            "body": "Saved in this browser to revisit or reuse."
+          },
+          "notifications": {
+            "title": "Notifications",
+            "body": "Demo reminders and updates inside MORSHID."
+          },
+          "app": {
+            "title": "Mobile app",
+            "body": "In the works — no release date yet."
+          }
+        },
+        "plannedTitle": "Planned, not built yet",
+        "planned": {
+          "ai": "A live AI service behind Arif and Roaya",
+          "accounts": "Real accounts with secure sign-in",
+          "push": "Notifications outside the app",
+          "expoData": "Official Expo 2030 data, once published"
+        },
+        "appLink": "About the coming mobile app"
+      }
+    },
+    "destinations": {
+      "hero": {
+        "eyebrow": "Destinations",
+        "line1": "Find places",
+        "line2": "worth the trip.",
+        "intro": "From the old heart of Riyadh to Nabataean tombs, mountain villages and the Red Sea — browse by place or by theme, then open it in Discover.",
+        "cta": "Open Discover"
+      },
+      "navLabel": "Destination collections",
+      "openInDiscover": "See {count, plural, one {# place} other {all # places}} in Discover",
+      "empty": "No destinations to show yet.",
+      "openPlace": "Open {name}",
+      "collections": {
+        "riyadh": {
+          "nav": "Riyadh",
+          "eyebrow": "The capital",
+          "title": "Riyadh: one day isn't enough",
+          "intro": "Clay forts and palaces, museums, markets, parks and the towers of the new city."
+        },
+        "saudi": {
+          "nav": "Saudi Arabia",
+          "eyebrow": "Beyond the capital",
+          "title": "The Kingdom is bigger than you think",
+          "intro": "AlUla, Asir, Al-Ahsa, Jeddah and the escarpment northwest of Riyadh — trips worth planning on their own.",
+          "cardCta": "See the place"
+        },
+        "heritage": {
+          "nav": "Culture & heritage",
+          "eyebrow": "Culture and heritage",
+          "title": "Stories in mud brick and coral stone",
+          "intro": "Places where Saudi history, crafts and architecture can be seen up close."
+        },
+        "nature": {
+          "nav": "Nature & adventure",
+          "eyebrow": "Nature and adventure",
+          "title": "Cliffs, rocks, caves and green mountains",
+          "intro": "Landscapes from desert escarpments to the cooler highlands of the south-west."
+        },
+        "landmarks": {
+          "nav": "Architecture & landmarks",
+          "eyebrow": "Architecture and landmarks",
+          "title": "From palaces to towers",
+          "intro": "A selection by MORSHID of buildings and sights that define their cities."
+        },
+        "expo": {
+          "nav": "Expo 2030 Riyadh",
+          "eyebrow": "Expo 2030 Riyadh",
+          "title": "Riyadh gets ready to welcome the world",
+          "intro": "Riyadh will host World Expo 2030. Start here: MORSHID organises an illustrative preview into four themed districts you can explore on the map and plan with Roaya.",
+          "factDatesLabel": "Scheduled dates",
+          "factDates": "1 Oct 2030 – 31 Mar 2031",
+          "factCityLabel": "Host city",
+          "factCity": "Riyadh",
+          "factSource": "Source: Bureau International des Expositions (BIE). Check official channels for updates.",
+          "disclaimer": "The districts, pavilions and times in the preview are illustrative and the images are concept renderings — not the official Expo 2030 Riyadh site plan. MORSHID has no official link to Expo 2030 Riyadh.",
+          "cta": "Explore the Expo map",
+          "read": "What we know so far",
+          "imageCaption": "Concept rendering of the future site at dusk — not a photograph and not the official plan."
+        }
+      },
+      "atlas": {
+        "eyebrow": "On the map",
+        "title": "Browse by location",
+        "intro": "Every destination on a real map. Choose a region, pick a place and open it.",
+        "mapLabel": "Map of all destinations",
+        "regionLabel": "Region",
+        "regions": {
+          "all": "All",
+          "riyadh": "Riyadh",
+          "saudi": "Outside Riyadh"
+        },
+        "listLabel": "Destinations on the map",
+        "open": "Open {name}",
+        "note": "Locations from OpenStreetMap; map tiles by OpenFreeMap."
+      },
+      "final": {
+        "title": "Found a place you like?",
+        "body": "Ask Arif or Roaya to build a day around it, or keep browsing in Discover.",
+        "primary": "Open Discover",
+        "secondary": "Ask a guide"
+      }
+    },
+    "how": {
+      "hero": {
+        "eyebrow": "How it works",
+        "line1": "From the idea in your head",
+        "line2": "to a day you live.",
+        "intro": "Tell MORSHID what you like, get suggestions, shape a plan, see it on a map and follow it — at your pace.",
+        "cta": "Try it now"
+      },
+      "storyTitle": "The five steps",
+      "sample": "Sample",
+      "steps": {
+        "tell": {
+          "title": "Tell MORSHID what kind of experience you want",
+          "body": "In your own words, in Arabic or English: interests, time, pace and who is with you. Or pick one of the suggested questions.",
+          "tip": "Vague is fine — “something calm with my kids” is a good start.",
+          "cta": "Start a conversation"
+        },
+        "suggest": {
+          "title": "Get personalised suggestions from your guide",
+          "body": "Arif or Roaya suggest places with the reason they fit, and you can ask about any of them.",
+          "tip": "In this demo replies are prepared from the guide data, not a live AI service.",
+          "cta": "Ask for suggestions"
+        },
+        "build": {
+          "title": "Build and refine your itinerary",
+          "body": "A proposal arrives as a plan you review: remove stops, reorder them, adjust times — then save it to My Plans.",
+          "tip": "Nothing is saved until you choose to save it.",
+          "cta": "Create a plan"
+        },
+        "map": {
+          "title": "Explore destinations using maps",
+          "body": "See your stops on a real map, look around for nearby places, or switch to the separate Expo preview map.",
+          "tip": "Locations are verified; the Expo map is illustrative and says so.",
+          "cta": "Open Explore Map"
+        },
+        "manage": {
+          "title": "Manage your trip as you go",
+          "body": "Guided mode shows one stop at a time, with directions in Google Maps when you want them. You mark each stop done.",
+          "tip": "MORSHID never tracks you or assumes you've arrived.",
+          "cta": "Open My Plans"
+        }
+      },
+      "visuals": {
+        "tell": {
+          "prompt": "“A calm family afternoon in Riyadh — the kids love history.”",
+          "chips": {
+            "c1": "Family",
+            "c2": "Half a day",
+            "c3": "History",
+            "c4": "Easy pace"
+          },
+          "placeholder": "Ask Roaya…"
+        },
+        "suggest": {
+          "answer": "Three places that suit a family with curious kids:",
+          "items": {
+            "s1": {
+              "name": "National Museum",
+              "why": "Indoors and hands-on — good for the hottest hours."
+            },
+            "s2": {
+              "name": "Salam Park",
+              "why": "Space to run and a lake, close to the old centre."
+            },
+            "s3": {
+              "name": "At-Turaif",
+              "why": "History you can walk through, best late in the day."
+            }
+          }
+        },
+        "build": {
+          "title": "Your plan — review before saving",
+          "rows": {
+            "r1": "National Museum",
+            "r2": "Souq Al-Zal",
+            "r3": "Salam Park",
+            "r4": "At-Turaif"
+          },
+          "note": "Removed: Souq Al-Zal · Moved: Salam Park"
+        },
+        "map": {
+          "label": "Illustration",
+          "card": "Stop 2 of 4 · Salam Park",
+          "cardBody": "Next: At-Turaif — open directions when you're ready."
+        },
+        "manage": {
+          "progress": "Stop 2 of 3",
+          "left": "1 left",
+          "now": "Now",
+          "stop": "Murabba Palace",
+          "stopBody": "The palace King Abdulaziz built outside the old walls.",
+          "done": "Mark as done",
+          "directions": "Directions"
+        }
+      },
+      "faq": {
+        "eyebrow": "Good to know",
+        "title": "Questions visitors ask",
+        "items": {
+          "account": {
+            "q": "Do I need an account?",
+            "a": "No. You can try the demo or continue as a guest. Saving some things asks you to sign in with a demo account — any email and an 8+ character password; nothing leaves your browser."
+          },
+          "cost": {
+            "q": "Does it cost anything?",
+            "a": "No. The plans and credits you see in the demo are simulated, and there are no payments."
+          },
+          "ai": {
+            "q": "Is Arif really an AI?",
+            "a": "Not yet in this demo: replies are prepared from MORSHID's guide data. A live AI service is planned."
+          },
+          "location": {
+            "q": "Does MORSHID track my location?",
+            "a": "No. Your position is only used once when you press “Where am I?”, and you mark stops as done yourself."
+          },
+          "expo": {
+            "q": "Is the Expo map official?",
+            "a": "No. It is an illustrative preview. Take Expo 2030 details only from official Expo 2030 Riyadh channels."
+          },
+          "data": {
+            "q": "Where is my data kept?",
+            "a": "In this browser's local storage on your device. Clearing this site's data removes it."
+          }
+        }
+      },
+      "final": {
+        "title": "Ready for step one?",
+        "body": "Open MORSHID and tell your guide what you feel like doing.",
+        "primary": "Start exploring",
+        "secondary": "See all features"
+      }
+    },
+    "guides": {
+      "hero": {
+        "eyebrow": "Arif & Roaya",
+        "line1": "Two companions.",
+        "line2": "One journey.",
+        "intro": "Arif and Roaya have their own personalities, colours and ways of helping. Choose one — you can switch at any time."
+      },
+      "arif": {
+        "kicker": "The heritage storyteller",
+        "tagline": "With Arif, every place has a story worth knowing.",
+        "intro": "Arif brings places, culture and history to life — why Masmak matters, what to look for in At-Turaif, where to taste Najdi food and which landmarks are worth the trip beyond Riyadh.",
+        "goodAt": {
+          "g1": "The history behind each place",
+          "g2": "Heritage routes through old Riyadh",
+          "g3": "Traditional food and markets",
+          "g4": "Highlights beyond the capital"
+        },
+        "tryAsking": "Try asking Arif",
+        "promptsNote": "These questions also appear as suggestions when you open the chat.",
+        "cta": "Chat with Arif",
+        "voice": "Voice: your browser's speech, demo replies"
+      },
+      "roaya": {
+        "kicker": "The calm planner",
+        "tagline": "Roaya plans your day so you can enjoy every moment of it.",
+        "intro": "Roaya organises cultural experiences and Expo visits thoughtfully — around your interests, your time and who's with you — and keeps the pace realistic.",
+        "goodAt": {
+          "g1": "Timed plans that aren't overloaded",
+          "g2": "Expo 2030 preview visits",
+          "g3": "Family days and easy pacing",
+          "g4": "Modern Riyadh and its architecture"
+        },
+        "tryAsking": "Try asking Roaya",
+        "promptsNote": "These questions also appear as suggestions when you open the chat.",
+        "cta": "Chat with Roaya",
+        "voice": "Voice: your browser's speech, demo replies"
+      },
+      "compare": {
+        "eyebrow": "Who to ask",
+        "title": "Not sure who to talk to?",
+        "intro": "Each guide has a focus. Both can help with any request, and you can switch in the chat.",
+        "caption": "Which guide best matches each topic",
+        "topic": "Topic",
+        "rows": {
+          "history": "History and stories of places",
+          "food": "Traditional food and markets",
+          "expo": "Planning an Expo 2030 preview visit",
+          "family": "A relaxed family day",
+          "modern": "Modern architecture",
+          "beyond": "Trips beyond Riyadh"
+        },
+        "bestMatch": "Best match",
+        "canHelp": "Can help too",
+        "note": "In this demo both guides answer from the same guide data, each in their own voice."
+      },
+      "final": {
+        "title": "Say hello.",
+        "body": "Pick Arif or Roaya and ask your first question — in Arabic or English.",
+        "primary": "Open MORSHID",
+        "secondary": "How it works"
+      },
+      "welcome": {
+        "title": "Here, a guest is welcomed with Arabic coffee and a warm hello.",
+        "body": "Arif and Roaya follow the same custom: they listen to what you want first, then suggest what suits you — no rush, and no promises they can't keep."
+      }
+    },
+    "journal": {
+      "hero": {
+        "eyebrow": "Travel Journal",
+        "line1": "Read before",
+        "line2": "you go.",
+        "intro": "Stories and practical guides about Riyadh, Saudi heritage, travelling across the Kingdom and getting ready for Expo 2030."
+      },
+      "sampleNotice": "Sample articles written for this demo. No publication dates or bylines are shown because none exist yet.",
+      "featured": "Featured",
+      "latest": "All stories",
+      "filterLabel": "Filter by category",
+      "all": "All",
+      "empty": "No stories in this category yet.",
+      "read": "Read the story",
+      "minutes": "{count, plural, one {# min read} other {# min read}}",
+      "byline": "MORSHID editorial (sample)",
+      "sampleBadge": "Sample",
+      "categories": {
+        "riyadh": "Riyadh",
+        "heritage": "Heritage",
+        "saudi": "Saudi Arabia",
+        "expo": "Expo 2030",
+        "tips": "Travel tips",
+        "morshid": "Using MORSHID"
+      },
+      "final": {
+        "title": "Turn a story into a plan.",
+        "body": "Ask Arif or Roaya about anything you read here.",
+        "primary": "Open MORSHID",
+        "secondary": "Browse destinations"
+      },
+      "back": "Travel Journal",
+      "outline": "In this story",
+      "articleSampleNote": "Sample article written for the MORSHID demo. Facts reflect the public sources listed below; check official sources before you travel.",
+      "sources": "Sources",
+      "photoLine": "Cover photo:",
+      "placesTitle": "Places in this story",
+      "allPlaces": "All destinations",
+      "related": "Keep reading",
+      "tip": "Tip:",
+      "articleCta": {
+        "title": "Make this your day.",
+        "body": "Open MORSHID and ask your guide to turn this story into a plan you can edit.",
+        "primary": "Plan it with a guide",
+        "secondary": "More stories"
+      }
+    },
+    "mobile": {
+      "hero": {
+        "badge": "Coming soon",
+        "line1": "MORSHID on your phone,",
+        "line2": "coming soon.",
+        "intro": "A mobile app built around the moments you're out exploring: a guide to talk to, places around you and your plan for the day — in Arabic and English.",
+        "appStore": "App Store",
+        "googlePlay": "Google Play",
+        "notAvailable": "Not available yet",
+        "noDate": "No release date has been announced.",
+        "cta": "Use MORSHID on your phone today",
+        "screens": {
+          "chat": "Chat",
+          "discover": "Discover",
+          "plan": "Plan"
+        },
+        "screensLabel": "Preview screen",
+        "previewNote": "Stylised previews built from the MORSHID design system."
+      },
+      "moments": {
+        "eyebrow": "Designed for the moment you're there",
+        "title": "The same companion, shaped for one hand.",
+        "intro": "These are the parts of MORSHID the app is designed around. All three already work in the web version on your phone.",
+        "chat": {
+          "title": "Ask on the go",
+          "body": "A question to Arif or Roaya while you walk — text or voice."
+        },
+        "discover": {
+          "title": "Find what's worth seeing",
+          "body": "Destinations with photos, stories and visit lengths."
+        },
+        "plan": {
+          "title": "Follow your plan",
+          "body": "One stop at a time, with your progress in view."
+        },
+        "onWeb": "Available today in the web version"
+      },
+      "exploring": {
+        "eyebrow": "What we're exploring",
+        "title": "Ideas for the app",
+        "intro": "Directions under consideration — not commitments, and subject to change.",
+        "items": {
+          "offline": {
+            "title": "Saved plans offline",
+            "body": "Your plan available without a connection."
+          },
+          "reminders": {
+            "title": "Plan reminders",
+            "body": "A nudge before the next stop, if you want it."
+          },
+          "voice": {
+            "title": "Hands-free conversations",
+            "body": "Talking with your guide while you explore."
+          },
+          "home": {
+            "title": "Quick access",
+            "body": "Today's plan one tap from your home screen."
+          }
+        },
+        "note": "None of these is available yet."
+      },
+      "notify": {
+        "title": "Launch notifications aren't open yet",
+        "body": "We don't collect email addresses on this site: there is no secure server to store them yet. When the app is ready, it will be announced on this page. In the meantime, MORSHID works in your phone's browser.",
+        "cta": "Open MORSHID in your browser"
+      },
+      "final": {
+        "title": "No need to wait.",
+        "body": "Everything shown here is already in the web version — try it on your phone now.",
+        "primary": "Open MORSHID",
+        "secondary": "See all features"
+      }
+    },
+    "legal": {
+      "privacy": {
+        "eyebrow": "Legal · draft",
+        "title": "Privacy policy",
+        "intro": "How the MORSHID demo handles information, written from what the code actually does."
+      },
+      "terms": {
+        "eyebrow": "Legal · draft",
+        "title": "Terms of use",
+        "intro": "The terms for using the MORSHID demo."
+      },
+      "draftTitle": "Draft — pending legal review",
+      "draftBody": "This document has not been reviewed by a lawyer and is not a final policy. {count, plural, one {# section is marked} other {# sections are marked}} as needing legal or technical confirmation.",
+      "checked": "Data-handling statements were checked against the demo's code on 12 October 2026.",
+      "toc": "Contents",
+      "related": "See also:",
+      "needsLegal": "Needs legal review",
+      "needsTechnical": "Needs technical confirmation"
+    },
+    "expoDistricts": {
+      "districtLabel": "District {number}",
+      "cta": "View on the map",
+      "items": {
+        "earth": {
+          "name": "Earth",
+          "native": "الأرض",
+          "body": "Nature, clean energy, water and a living desert garden.",
+          "topics": "Clean energy · Water · Desert garden"
+        },
+        "collaboration": {
+          "name": "Collaboration",
+          "native": "التعاون",
+          "body": "Nations, music, film and the networks that connect cities and people.",
+          "topics": "Nations · Music & film · Mobility"
+        },
+        "technology": {
+          "name": "Technology",
+          "native": "التقنيات",
+          "body": "AI, space, smart cities and urban air mobility.",
+          "topics": "AI · Space · Smart cities"
+        },
+        "humanity": {
+          "name": "Humanity",
+          "native": "الإنسانيات",
+          "body": "Arabic calligraphy, crafts, future medicine, wellbeing and family.",
+          "topics": "Calligraphy · Crafts · Wellbeing"
+        }
+      }
+    }
+  }
+}

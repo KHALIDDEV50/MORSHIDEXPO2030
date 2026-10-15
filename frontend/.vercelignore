@@ -1,0 +1,14 @@
+# Never upload private working files to Vercel (mirrors .gitignore's private entries)
+/answer is.txt
+/expoproblem.txt
+/.claude/
+/Read images of design/
+/fonts/
+/.env*
+!/.env.example
+/node_modules/
+/.next/
+/test-results/
+/playwright-report/
+# The React Native app (mobile/) is not part of the website
+/mobile/
