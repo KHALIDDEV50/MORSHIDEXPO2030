@@ -86,8 +86,7 @@ cp .env.example .env.local
 npm install
 npm run dev
 ```
-افتح بعدها http://localhost:3000.
-
+لتصمفج المنصه https://morshid-three.vercel.app/ar
 | المتغير | القيمة |
 |---|---|
 | `NEXT_PUBLIC_DATA_SOURCE` | `mock` لكل شيء تجريبي، أو `hybrid` (الافتراضي)، أو `http` |
@@ -96,13 +95,7 @@ npm run dev
 
 > على الجوال أو المحاكي لا يشير `localhost` إلى جهازك. استخدم عنوان IP المحلي لجهازك، أو `10.0.2.2` في محاكي أندرويد.
 
-### تطبيق الجوال
-```bash
-cd frontend/mobile
-npm install
-npx expo start
-```
-يعرض التطبيق نسخة الويب المنشورة، وعنوانها في `app.json` ضمن `expo.extra.webUrl`.
+
 
 ## معالجة الأخطاء
 جميع الطلبات تمر عبر عميل HTTP موحد في `frontend/src/shared/api/http-client.ts`. هذا العميل يضبط مهلة 15 ثانية، ويتحقق من شكل الرد باستخدام Zod، ويحوّل الأخطاء إلى رموز موحدة. يرى المستخدم رسائل واضحة بالعربية والإنجليزية لهذه الحالات: انقطاع الاتصال، وتأخر الرد، وعدم وجود العنصر (404)، وخطأ الخادم (5xx).
